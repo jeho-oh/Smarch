@@ -28,8 +28,8 @@ def read_dimacs(dimacsfile_):
     _clauses = list()
     _vcount = '-1'  # required for variables without names
 
-    with open(dimacsfile_) as f:
-        for line in f:
+    with open(dimacsfile_) as df:
+        for line in df:
             # read variables in comments
             if line.startswith("c"):
                 line = line[0:len(line) - 1]
@@ -101,13 +101,13 @@ def read_constraints(constfile_, features_):
     return _const
 
 
-def get_var(flist, features_):
+def get_var(flist_, features_):
     """convert feature names into variables"""
 
     _const = list()
     names = [i[1] for i in features_]
 
-    for feature in flist:
+    for feature in flist_:
         prefix = 1
         if feature.startswith('-'):
             feature = feature[1:len(feature)]
@@ -124,22 +124,22 @@ def get_var(flist, features_):
 def gen_dimacs(vars_, clauses_, constraints_, outfile_):
     """generate a dimacs file from given clauses and constraints"""
 
-    f = open(outfile_, 'w')
-    f.write('p cnf ' + vars_ + ' ' + str(len(clauses_) + len(constraints_)) + '\n')
+    _df = open(outfile_, 'w')
+    _df.write('p cnf ' + vars_ + ' ' + str(len(clauses_) + len(constraints_)) + '\n')
 
     for cl in clauses_:
-        f.write(" ".join(str(x) for x in cl) + ' 0 \n')
+        _df.write(" ".join(str(x) for x in cl) + ' 0 \n')
 
     for ct in constraints_:
         if isinstance(ct, (list,)):
-            line = ""
-            for v in ct:
-                line = line + str(v) + " "
-            f.write(line + '0 \n')
+            _line = ""
+            for _v in ct:
+                _line = _line + str(_v) + " "
+            _df.write(_line + '0 \n')
         else:
-            f.write(str(ct) + ' 0 \n')
+            _df.write(str(ct) + ' 0 \n')
 
-    f.close()
+    _df.close()
 
 
 def count(dimacs_, constraints_):
@@ -154,20 +154,20 @@ def count(dimacs_, constraints_):
     return res
 
 
-def checkSAT(dimacs_, constraints_):
+def checksat(dimacs_, constraints_):
     """check satisfiability of given formula with constraints"""
     _features, _clauses, _vcount = read_dimacs(dimacs_)
     cnf = _clauses + constraints_
-    s = pycosat.solve(cnf)
+    _sol = pycosat.solve(cnf)
 
-    if s == 'UNSAT':
+    if _sol == 'UNSAT':
         return False
     else:
         return True
 
 
 # partition space by cubes and count number of solutions for each cube
-def partition(assigned_, vcount_, clauses_, wdir_):
+def count_cc(assigned_, vcount_, clauses_, wdir_):
     _total = 0
     _counts = list()
     _cubes = list()
@@ -180,16 +180,16 @@ def partition(assigned_, vcount_, clauses_, wdir_):
 
     # execute march to get cubes
     res = getoutput(MARCH + ' ' + _dimacsfile + ' -d 5 -# -o ' + _cubefile)
-    out = res.split("\n")
+    _out = res.split("\n")
 
     # print march result (debugging purpose)
     # print(out)
 
-    if out[7].startswith('c all'):
-        _freevar = out[5].split(": ")[1].split()
+    if _out[7].startswith('c all'):
+        _freevar = _out[5].split(": ")[1].split()
 
-    with open(_cubefile) as f:
-        for _line in f:
+    with open(_cubefile) as cf:
+        for _line in cf:
             _cube = list(_line.split())
             if 'a' in _cube:
                 _cube.remove('a')
@@ -225,18 +225,18 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=3, quiet_=False):
         def gen_n_unique(source, n__):
             seen = set()
             seenadd = seen.add
-            for i in (i for i in source() if i not in seen and not seenadd(i)):
-                yield i
+            for _i in (_i for _i in source() if _i not in seen and not seenadd(i)):
+                yield _i
                 if len(seen) == n__:
                     break
 
-        return [i for i in gen_n_unique(gen_random, min(rcount_, int(total_ - 1)))]
+        return [j for j in gen_n_unique(gen_random, min(rcount_, int(total_ - 1)))]
 
     clauses_ = clauses_ + const_
 
     if not quiet_:
         print("Counting - ", end='')
-    freevar = partition([], vcount_, clauses_, wdir_)
+    freevar = count_cc([], vcount_, clauses_, wdir_)
 
     if not quiet_:
         print("Total configurations: " + str(freevar[3]))
@@ -248,9 +248,7 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=3, quiet_=False):
     if threads_ > n_:
         threads_ = n_
 
-    chunk = int(n / threads_)
     rlist = list()
-
     for i in range(0, threads_):
         rlist.append(list())
 
@@ -261,7 +259,7 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=3, quiet_=False):
         i += 1
 
     # run sampling processes
-    samples = list()
+    _samples = list()
     with multiprocessing.Manager() as manager:
         q = manager.Queue()
         plist = list()
@@ -282,12 +280,12 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=3, quiet_=False):
 
         # gather samples
         while not q.empty():
-            samples.append(q.get())
+            _samples.append(q.get())
             # sset = q.get()
             # for s in sset:
             #     samples.append(s)
 
-    return samples
+    return _samples
 
 
 def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
@@ -297,6 +295,8 @@ def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
     _wdir = wdir_ + "/" + str(pid)
     if not os.path.exists(_wdir):
         os.makedirs(_wdir)
+
+    cache = dict()
 
     # select a cube based on given random number
     def select_cube(counts_, cubes_, number_):
@@ -316,6 +316,64 @@ def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
 
         return cubes_[_index], number_, _terminate
 
+    # partition space by cubes and count number of solutions for each cube
+    def traverse(assigned_, vcount_, clauses_, wdir_, r_):
+        _cubes = list()
+        _freevar = list()
+        _selected = list()
+        _terminate = False
+        _dimacsfile = wdir_ + '/dimacs.smarch'
+        _cubefile = wdir_ + '/cubes.smarch'
+
+        # create dimacs file regarding constraints
+        gen_dimacs(vcount_, clauses_, assigned_, _dimacsfile)
+
+        # execute march to get cubes
+        res = getoutput(MARCH + ' ' + _dimacsfile + ' -d 5 -# -o ' + _cubefile)
+        _out = res.split("\n")
+
+        # print march result (debugging purpose)
+        # print(out)
+
+        if _out[7].startswith('c all'):
+            _freevar = _out[5].split(": ")[1].split()
+
+        with open(_cubefile) as cf:
+            for _line in cf:
+                _cube = list(_line.split())
+                if 'a' in _cube:
+                    _cube.remove('a')
+                if '0' in _cube:
+                    _cube.remove('0')
+
+                _cubes.append(_cube)
+
+        if len(_freevar) != 0:
+            # execute sharpSAT to count solutions and select partition
+
+            for _cube in _cubes:
+                # reuse count if cached
+                if _cube in cache:
+                    res = cache[_cube]
+                else:
+                    count_time = time.time()
+                    gen_dimacs(vcount_, clauses_, assigned_ + _cube, _dimacsfile)
+                    res = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
+                    # cache the data if sharpSAT runtime exceeds 0.02 seconds
+                    if time.time() - count_time > 0.02:
+                        cache[_cube] = res
+
+                if r_ <= res:
+                    _selected = _cube.copy()
+                    break
+                else:
+                    r_ = r_ - res
+
+                if res == 1:
+                    _terminate = True
+
+        return [_selected, r_, _freevar, _terminate]
+
     # assign free variables without recursion
     def set_freevar(fv_, number_):
         _vars = list()
@@ -330,8 +388,9 @@ def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
         return _vars
 
     # sample for each random number
-    i = 0
+    i = 1
     _sample = list()
+
     for r in rands_:
         if not quiet_:
             print(str(pid) + ": Sampling " + str(i) + " with " + str(r) + " - ", end='')
@@ -354,7 +413,8 @@ def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
 
         # recurse
         while not terminate:
-            r_freevar = partition(assigned, vcount_, clauses_, _wdir)
+            traverse(assigned, vcount_, clauses_, _wdir)
+            r_freevar = count_cc(assigned, vcount_, clauses_, _wdir)
 
             if len(r_freevar[0]) != 0:  # all variables free, sampling done
                 assigned = assigned + set_freevar(r_freevar[0], int(number))
@@ -371,17 +431,14 @@ def sample(q, vcount_, clauses_, rands_, wdir_, freevar_, quiet_=False):
         assigned = list(map(int, assigned))
         aclause = [assigned[i:i+1] for i in range(0, len(assigned))]
         cnf = clauses_ + aclause
-        s = pycosat.solve(cnf)
+        _sol = pycosat.solve(cnf)
 
-
-        # print(s)
-
-        if s == 'UNSAT':
+        if _sol == 'UNSAT':
             print("ERROR: Sample Invalid")
             exit(1)
         else:
             # _sample.append(s)
-            q.put(s)
+            q.put(_sol)
 
         if not quiet_:
             print("sampling time: " + str(time.time() - sample_time))
@@ -412,8 +469,8 @@ if __name__ == "__main__":
     # get external location for sharpSAT and march if needed
     if os.path.exists(srcdir + "/links.txt"):
         with open(srcdir + "/links.txt") as f:
-            for _line in f:
-                link = list(_line.split('='))
+            for line in f:
+                link = list(line.split('='))
                 if len(link) != 0 and link[0][0] != '#':
                     if link[0] == "SHARPSAT":
                         SHARPSAT = link[1]
@@ -489,14 +546,12 @@ if __name__ == "__main__":
     samplefile = wdir + "/" + target + "_" + str(n) + ".samples"
 
     if out:
-        f = open(wdir + "/" + target + "_" + str(n) + ".samples", 'w')
+        of = open(wdir + "/" + target + "_" + str(n) + ".samples", 'w')
         for s in samples:
             for v in s:
-                f.write(str(v))
-                f.write(",")
-            f.write("\n")
-        f.close()
+                of.write(str(v))
+                of.write(",")
+            of.write("\n")
+        of.close()
 
         print('Output samples created on: ', samplefile)
-
-

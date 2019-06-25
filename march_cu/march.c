@@ -140,7 +140,7 @@ int main (int argc, char** argv) {
 	if (equivalence_reasoning() == UNSAT)	handleUNSAT();
 #endif
         for( i = 0; i < nrofclauses; i++ )
-            if( Clength[ i ] > 3 )
+            if( Clength[ i ] > 2 )
 	    { kSAT_flag = 1; break; }
 
 	if (kSAT_flag) {
@@ -177,7 +177,7 @@ int main (int argc, char** argv) {
             else                   { status[Cv[i][0]] = nrofvars + 1;     }
             if (!status[Cv[i][1]]) { status[Cv[i][1]] = Cv[i][0]; }
             else                   { status[Cv[i][1]] = nrofvars + 1;     } }
-          if (Clength[i] > 3) {
+          if (Clength[i] > 2) {
             int j;
             for (j = 0; j < Clength[i]; j++)
               status[Cv[i][j]] = nrofvars + 1; } }
