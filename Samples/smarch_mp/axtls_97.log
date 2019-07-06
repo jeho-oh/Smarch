@@ -1,0 +1,13 @@
+Input file:  ./FeatureModel/axtls.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Traceback (most recent call last):
+  File "./smarch_mp.py", line 672, in <module>
+    features, clauses, vcount = read_dimacs(dimacs)
+  File "./smarch_mp.py", line 34, in read_dimacs
+    with open(dimacsfile_) as df:
+FileNotFoundError: [Errno 2] No such file or directory: './FeatureModel/axtls.dimacs'
+
+real	0m0.093s
+user	0m0.089s
+sys	0m0.004s

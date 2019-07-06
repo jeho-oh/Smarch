@@ -1,0 +1,13 @@
+Input file:  ./FeatureModel/at91sam7xek.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_basic/smarch
+Traceback (most recent call last):
+  File "./smarch_basic.py", line 387, in <module>
+    features, clauses, vcount = read_dimacs(dimacs)
+  File "./smarch_basic.py", line 28, in read_dimacs
+    with open(dimacsfile_) as f:
+FileNotFoundError: [Errno 2] No such file or directory: './FeatureModel/at91sam7xek.dimacs'
+
+real	0m0.122s
+user	0m0.101s
+sys	0m0.020s

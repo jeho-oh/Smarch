@@ -1,0 +1,5 @@
+smarch.py -c <constfile> -o <outputdir>  -q | <dimacsfile> <samplecount>
+
+real	0m0.050s
+user	0m0.042s
+sys	0m0.008s

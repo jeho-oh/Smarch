@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/Dune.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 2304
+Counting time: 0.08832597732543945
+6987: Sampled 1 with 387 - sampling time: 0.01564764976501465
+6994: Sampled 1 with 1396 - sampling time: 0.019837141036987305
+6994: Sampled 2 with 1433 - sampling time: 0.0181429386138916
+6991: Sampled 1 with 1079 - sampling time: 0.04830574989318848
+6994: Sampled 3 with 1463 - sampling time: 0.016252517700195312
+6994: Sampled 4 with 1492 - sampling time: 0.02158188819885254
+6989: Sampled 1 with 708 - sampling time: 0.08947181701660156
+6987: Sampled 2 with 396 - sampling time: 0.09212779998779297
+6996: Sampled 1 with 1721 - sampling time: 0.10940170288085938
+6986: Sampled 1 with 21 - sampling time: 0.11468505859375
+6991: Sampled 2 with 1085 - sampling time: 0.08728909492492676
+6999: Sampled 1 with 2146 - sampling time: 0.1368577480316162
+6994: Sampled 5 with 1496 - sampling time: 0.08399057388305664
+6989: Sampled 2 with 714 - sampling time: 0.10397124290466309
+6987: Sampled 3 with 432 - sampling time: 0.0900566577911377
+6996: Sampled 2 with 1730 - sampling time: 0.09305882453918457
+6989: Sampled 3 with 788 - sampling time: 0.026385784149169922
+6991: Sampled 3 with 1098 - sampling time: 0.09160113334655762
+6989: Sampled 4 with 801 - sampling time: 0.01712942123413086
+6986: Sampled 2 with 34 - sampling time: 0.13444828987121582
+6994: Sampled 6 with 1513 - sampling time: 0.10787200927734375
+6987: Sampled 4 with 517 - sampling time: 0.07980108261108398
+6989: Sampled 5 with 812 - sampling time: 0.04028177261352539
+6999: Sampled 2 with 2155 - sampling time: 0.1428077220916748
+6991: Sampled 4 with 1100 - sampling time: 0.059128761291503906
+6994: Sampled 7 with 1540 - sampling time: 0.01961040496826172
+6989: Sampled 6 with 817 - sampling time: 0.03407478332519531
+6994: Sampled 8 with 1586 - sampling time: 0.023790597915649414
+6994: Sampled 9 with 1587 - sampling time: 0.01318359375
+6996: Sampled 3 with 1800 - sampling time: 0.13288521766662598
+6994: Sampled 10 with 1600 - sampling time: 0.016549348831176758
+6987: Sampled 5 with 552 - sampling time: 0.07198810577392578
+6986: Sampled 3 with 100 - sampling time: 0.10148811340332031
+6989: Sampled 7 with 839 - sampling time: 0.04782819747924805
+6991: Sampled 5 with 1156 - sampling time: 0.07737255096435547
+6987: Sampled 6 with 600 - sampling time: 0.03603243827819824
+6994: Sampled 11 with 1664 - sampling time: 0.08325958251953125
+6996: Sampled 4 with 1823 - sampling time: 0.09122991561889648
+6989: Sampled 8 with 947 - sampling time: 0.07210063934326172
+6987: Sampled 7 with 608 - sampling time: 0.046630859375
+6999: Sampled 3 with 2169 - sampling time: 0.1540372371673584
+6991: Sampled 6 with 1178 - sampling time: 0.07069015502929688
+6986: Sampled 4 with 139 - sampling time: 0.11906266212463379
+6989: Sampled 9 with 949 - sampling time: 0.058992862701416016
+6987: Sampled 8 with 615 - sampling time: 0.06576967239379883
+6994: Sampled 12 with 1678 - sampling time: 0.09017634391784668
+6996: Sampled 5 with 1834 - sampling time: 0.10509920120239258
+6999: Sampled 4 with 2176 - sampling time: 0.11455702781677246
+6989: Sampled 10 with 959 - sampling time: 0.07008957862854004
+6986: Sampled 5 with 178 - sampling time: 0.09420013427734375
+6987: Sampled 9 with 619 - sampling time: 0.07545828819274902
+6991: Sampled 7 with 1238 - sampling time: 0.14086008071899414
+6989: Sampled 11 with 979 - sampling time: 0.06020355224609375
+6987: Sampled 10 with 624 - sampling time: 0.059822797775268555
+6986: Sampled 6 with 186 - sampling time: 0.07155680656433105
+6994: Sampled 13 with 1704 - sampling time: 0.12134289741516113
+6996: Sampled 6 with 1835 - sampling time: 0.11459469795227051
+6999: Sampled 5 with 2178 - sampling time: 0.1131887435913086
+6987: Sampled 11 with 631 - sampling time: 0.05744290351867676
+6986: Sampled 7 with 205 - sampling time: 0.07370901107788086
+6987: Sampled 12 with 677 - sampling time: 0.023747920989990234
+6989: Sampled 12 with 993 - sampling time: 0.09764552116394043
+6991: Sampled 8 with 1242 - sampling time: 0.1482374668121338
+6994: Sampled 14 with 1711 - sampling time: 0.11633086204528809
+6996: Sampled 7 with 1965 - sampling time: 0.11324143409729004
+6987: Sampled 13 with 692 - sampling time: 0.06113266944885254
+6999: Sampled 6 with 2181 - sampling time: 0.12161064147949219
+6986: Sampled 8 with 222 - sampling time: 0.09289216995239258
+6989: Sampled 13 with 1021 - sampling time: 0.09819960594177246
+6991: Sampled 9 with 1249 - sampling time: 0.09775662422180176
+6996: Sampled 8 with 1967 - sampling time: 0.09473276138305664
+6989: Sampled 14 with 1077 - sampling time: 0.043958187103271484
+6987: Sampled 14 with 706 - sampling time: 0.08751678466796875
+6999: Sampled 7 with 2214 - sampling time: 0.07965588569641113
+6986: Sampled 9 with 227 - sampling time: 0.07679438591003418
+6991: Sampled 10 with 1266 - sampling time: 0.08884644508361816
+6999: Sampled 8 with 2217 - sampling time: 0.06566643714904785
+6996: Sampled 9 with 2029 - sampling time: 0.08582353591918945
+6986: Sampled 10 with 244 - sampling time: 0.0741891860961914
+6999: Sampled 9 with 2230 - sampling time: 0.0487520694732666
+6991: Sampled 11 with 1289 - sampling time: 0.0783696174621582
+6996: Sampled 10 with 2043 - sampling time: 0.07205843925476074
+6986: Sampled 11 with 245 - sampling time: 0.09044051170349121
+6991: Sampled 12 with 1328 - sampling time: 0.05745697021484375
+6996: Sampled 11 with 2065 - sampling time: 0.034264326095581055
+6999: Sampled 10 with 2279 - sampling time: 0.09391951560974121
+6996: Sampled 12 with 2082 - sampling time: 0.055768489837646484
+6991: Sampled 13 with 1357 - sampling time: 0.06357312202453613
+6986: Sampled 12 with 281 - sampling time: 0.07924270629882812
+6991: Sampled 14 with 1371 - sampling time: 0.0151214599609375
+6996: Sampled 13 with 2111 - sampling time: 0.04230093955993652
+6999: Sampled 11 with 2284 - sampling time: 0.07363343238830566
+6986: Sampled 13 with 302 - sampling time: 0.0659627914428711
+6986: Sampled 14 with 367 - sampling time: 0.012231588363647461
+6996: Sampled 14 with 2140 - sampling time: 0.06273913383483887
+6999: Sampled 12 with 2285 - sampling time: 0.0629274845123291
+6999: Sampled 13 with 2297 - sampling time: 0.05689597129821777
+--- total time: 1.3727843761444092 seconds ---
+Output samples created on:  ./Samples/smarch_mp/Dune_97.samples
+
+real	0m1.423s
+user	0m4.290s
+sys	0m2.455s

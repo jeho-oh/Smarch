@@ -1,0 +1,106 @@
+Input file:  ./FeatureModel/Trimesh.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_basic/smarch
+Counting - Total configurations: 239360
+Sampling 1 with 18882 - sampling time: 0.2598135471343994
+Sampling 2 with 107624 - sampling time: 0.2788822650909424
+Sampling 3 with 16813 - sampling time: 0.28000760078430176
+Sampling 4 with 181625 - sampling time: 0.30455493927001953
+Sampling 5 with 179823 - sampling time: 0.27480340003967285
+Sampling 6 with 156216 - sampling time: 0.2549901008605957
+Sampling 7 with 233855 - sampling time: 0.3063638210296631
+Sampling 8 with 170983 - sampling time: 0.2644176483154297
+Sampling 9 with 10881 - sampling time: 0.24306464195251465
+Sampling 10 with 136320 - sampling time: 0.2754685878753662
+Sampling 11 with 41891 - sampling time: 0.25999021530151367
+Sampling 12 with 20925 - sampling time: 0.34319233894348145
+Sampling 13 with 11300 - sampling time: 0.3701508045196533
+Sampling 14 with 194310 - sampling time: 0.3853719234466553
+Sampling 15 with 133672 - sampling time: 0.3012690544128418
+Sampling 16 with 36932 - sampling time: 0.27833080291748047
+Sampling 17 with 116235 - sampling time: 0.2990396022796631
+Sampling 18 with 17237 - sampling time: 0.2498493194580078
+Sampling 19 with 26885 - sampling time: 0.29581403732299805
+Sampling 20 with 65018 - sampling time: 0.3434278964996338
+Sampling 21 with 134567 - sampling time: 0.2737729549407959
+Sampling 22 with 161194 - sampling time: 0.2876856327056885
+Sampling 23 with 182207 - sampling time: 0.27215051651000977
+Sampling 24 with 219111 - sampling time: 0.2736673355102539
+Sampling 25 with 206381 - sampling time: 0.2915992736816406
+Sampling 26 with 52610 - sampling time: 0.277008056640625
+Sampling 27 with 54543 - sampling time: 0.2825164794921875
+Sampling 28 with 188941 - sampling time: 0.29555439949035645
+Sampling 29 with 39485 - sampling time: 0.2873857021331787
+Sampling 30 with 38478 - sampling time: 0.27191758155822754
+Sampling 31 with 239136 - sampling time: 0.30438923835754395
+Sampling 32 with 179430 - sampling time: 0.2642333507537842
+Sampling 33 with 104376 - sampling time: 0.28643107414245605
+Sampling 34 with 218059 - sampling time: 0.2850041389465332
+Sampling 35 with 3453 - sampling time: 0.2747833728790283
+Sampling 36 with 36400 - sampling time: 0.2972726821899414
+Sampling 37 with 1431 - sampling time: 0.23856687545776367
+Sampling 38 with 148296 - sampling time: 0.2786681652069092
+Sampling 39 with 173944 - sampling time: 0.30004310607910156
+Sampling 40 with 181273 - sampling time: 0.26775288581848145
+Sampling 41 with 11280 - sampling time: 0.30320310592651367
+Sampling 42 with 73678 - sampling time: 0.30452752113342285
+Sampling 43 with 10236 - sampling time: 0.3630671501159668
+Sampling 44 with 129528 - sampling time: 0.2922196388244629
+Sampling 45 with 82773 - sampling time: 0.2933928966522217
+Sampling 46 with 121299 - sampling time: 0.32504916191101074
+Sampling 47 with 157305 - sampling time: 0.39929795265197754
+Sampling 48 with 193350 - sampling time: 0.2579648494720459
+Sampling 49 with 78883 - sampling time: 0.26880931854248047
+Sampling 50 with 220872 - sampling time: 0.31134510040283203
+Sampling 51 with 205411 - sampling time: 0.2819235324859619
+Sampling 52 with 219010 - sampling time: 0.3330216407775879
+Sampling 53 with 36561 - sampling time: 0.3300442695617676
+Sampling 54 with 73197 - sampling time: 0.2980220317840576
+Sampling 55 with 189938 - sampling time: 0.3552229404449463
+Sampling 56 with 228704 - sampling time: 0.5172839164733887
+Sampling 57 with 20847 - sampling time: 0.2731509208679199
+Sampling 58 with 131887 - sampling time: 0.2670400142669678
+Sampling 59 with 85022 - sampling time: 0.2788059711456299
+Sampling 60 with 235665 - sampling time: 0.2749025821685791
+Sampling 61 with 57283 - sampling time: 0.24999713897705078
+Sampling 62 with 31247 - sampling time: 0.27930641174316406
+Sampling 63 with 108799 - sampling time: 0.3779921531677246
+Sampling 64 with 71377 - sampling time: 0.3839092254638672
+Sampling 65 with 93579 - sampling time: 0.2780117988586426
+Sampling 66 with 14623 - sampling time: 0.333329439163208
+Sampling 67 with 82874 - sampling time: 0.4706895351409912
+Sampling 68 with 186888 - sampling time: 0.35436487197875977
+Sampling 69 with 153655 - sampling time: 0.32593393325805664
+Sampling 70 with 237863 - sampling time: 0.2870173454284668
+Sampling 71 with 227392 - sampling time: 0.30175304412841797
+Sampling 72 with 161642 - sampling time: 0.265841007232666
+Sampling 73 with 97798 - sampling time: 0.3240790367126465
+Sampling 74 with 74689 - sampling time: 0.4148886203765869
+Sampling 75 with 134406 - sampling time: 0.3235769271850586
+Sampling 76 with 108302 - sampling time: 0.3475329875946045
+Sampling 77 with 58405 - sampling time: 0.2539238929748535
+Sampling 78 with 178800 - sampling time: 0.2645688056945801
+Sampling 79 with 205022 - sampling time: 0.274552583694458
+Sampling 80 with 18156 - sampling time: 0.26652097702026367
+Sampling 81 with 24791 - sampling time: 0.27618980407714844
+Sampling 82 with 212396 - sampling time: 0.3185417652130127
+Sampling 83 with 134861 - sampling time: 0.2790238857269287
+Sampling 84 with 154548 - sampling time: 0.2776961326599121
+Sampling 85 with 235211 - sampling time: 0.3208484649658203
+Sampling 86 with 471 - sampling time: 0.27863574028015137
+Sampling 87 with 203054 - sampling time: 0.38045740127563477
+Sampling 88 with 217822 - sampling time: 0.37020182609558105
+Sampling 89 with 94210 - sampling time: 0.4122753143310547
+Sampling 90 with 91747 - sampling time: 0.4631643295288086
+Sampling 91 with 239026 - sampling time: 0.41414952278137207
+Sampling 92 with 103651 - sampling time: 0.2936995029449463
+Sampling 93 with 206438 - sampling time: 0.3687920570373535
+Sampling 94 with 35338 - sampling time: 0.43660664558410645
+Sampling 95 with 130207 - sampling time: 0.2722334861755371
+Sampling 96 with 130794 - sampling time: 0.269869327545166
+Sampling 97 with 127456 - sampling time: 0.30597662925720215
+--- total time: 29.93362283706665 seconds ---
+
+real	0m29.982s
+user	0m19.528s
+sys	0m11.322s

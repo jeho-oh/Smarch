@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/BerkeleyDBC.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 2560
+Counting time: 0.05709052085876465
+8643: Sampled 1 with 1830 - sampling time: 0.01927351951599121
+8636: Sampled 1 with 39 - sampling time: 0.023049592971801758
+8645: Sampled 1 with 2124 - sampling time: 0.018500328063964844
+8637: Sampled 1 with 510 - sampling time: 0.025156497955322266
+8643: Sampled 2 with 1868 - sampling time: 0.012380599975585938
+8636: Sampled 2 with 81 - sampling time: 0.015286922454833984
+8640: Sampled 1 with 1286 - sampling time: 0.035785675048828125
+8645: Sampled 2 with 2136 - sampling time: 0.019472837448120117
+8637: Sampled 2 with 518 - sampling time: 0.01556396484375
+8643: Sampled 3 with 1888 - sampling time: 0.013252735137939453
+8638: Sampled 1 with 804 - sampling time: 0.05321311950683594
+8642: Sampled 1 with 1469 - sampling time: 0.053655385971069336
+8636: Sampled 3 with 111 - sampling time: 0.021391630172729492
+8645: Sampled 3 with 2212 - sampling time: 0.017508745193481445
+8637: Sampled 3 with 566 - sampling time: 0.020399093627929688
+8643: Sampled 4 with 1924 - sampling time: 0.0157620906829834
+8640: Sampled 2 with 1326 - sampling time: 0.032003164291381836
+8636: Sampled 4 with 114 - sampling time: 0.0182952880859375
+8645: Sampled 4 with 2262 - sampling time: 0.02097773551940918
+8637: Sampled 4 with 572 - sampling time: 0.02045416831970215
+8643: Sampled 5 with 1960 - sampling time: 0.020870208740234375
+8636: Sampled 5 with 137 - sampling time: 0.020258426666259766
+8645: Sampled 5 with 2263 - sampling time: 0.017160654067993164
+8642: Sampled 2 with 1504 - sampling time: 0.04292869567871094
+8637: Sampled 5 with 574 - sampling time: 0.017452716827392578
+8638: Sampled 2 with 806 - sampling time: 0.04483509063720703
+8643: Sampled 6 with 1975 - sampling time: 0.018364429473876953
+8640: Sampled 3 with 1344 - sampling time: 0.03370833396911621
+8637: Sampled 6 with 608 - sampling time: 0.012574195861816406
+8636: Sampled 6 with 161 - sampling time: 0.015411138534545898
+8645: Sampled 6 with 2284 - sampling time: 0.015533685684204102
+8643: Sampled 7 with 2000 - sampling time: 0.015305757522583008
+8645: Sampled 7 with 2300 - sampling time: 0.013520479202270508
+8636: Sampled 7 with 201 - sampling time: 0.015291929244995117
+8640: Sampled 4 with 1360 - sampling time: 0.032773733139038086
+8643: Sampled 8 with 2001 - sampling time: 0.02053976058959961
+8642: Sampled 3 with 1537 - sampling time: 0.04174661636352539
+8637: Sampled 7 with 670 - sampling time: 0.029107093811035156
+8645: Sampled 8 with 2307 - sampling time: 0.015735864639282227
+8636: Sampled 8 with 220 - sampling time: 0.014710426330566406
+8638: Sampled 3 with 889 - sampling time: 0.053635597229003906
+8643: Sampled 9 with 2028 - sampling time: 0.015912532806396484
+8636: Sampled 9 with 265 - sampling time: 0.018263816833496094
+8640: Sampled 5 with 1364 - sampling time: 0.027109146118164062
+8645: Sampled 9 with 2346 - sampling time: 0.024869203567504883
+8643: Sampled 10 with 2030 - sampling time: 0.02210211753845215
+8636: Sampled 10 with 276 - sampling time: 0.01642131805419922
+8637: Sampled 8 with 686 - sampling time: 0.03622126579284668
+8642: Sampled 4 with 1553 - sampling time: 0.051221370697021484
+8643: Sampled 11 with 2045 - sampling time: 0.017432689666748047
+8645: Sampled 10 with 2365 - sampling time: 0.028519868850708008
+8636: Sampled 11 with 309 - sampling time: 0.022854328155517578
+8638: Sampled 4 with 890 - sampling time: 0.0541691780090332
+8640: Sampled 6 with 1376 - sampling time: 0.04510641098022461
+8645: Sampled 11 with 2380 - sampling time: 0.014771461486816406
+8643: Sampled 12 with 2081 - sampling time: 0.019056320190429688
+8636: Sampled 12 with 372 - sampling time: 0.019829988479614258
+8637: Sampled 9 with 693 - sampling time: 0.04413175582885742
+8643: Sampled 13 with 2104 - sampling time: 0.019691944122314453
+8645: Sampled 12 with 2403 - sampling time: 0.023104429244995117
+8642: Sampled 5 with 1575 - sampling time: 0.05104565620422363
+8636: Sampled 13 with 467 - sampling time: 0.02437758445739746
+8645: Sampled 13 with 2511 - sampling time: 0.016981124877929688
+8640: Sampled 7 with 1394 - sampling time: 0.04822731018066406
+8638: Sampled 5 with 924 - sampling time: 0.05256795883178711
+8643: Sampled 14 with 2110 - sampling time: 0.030687570571899414
+8637: Sampled 10 with 729 - sampling time: 0.04452824592590332
+8636: Sampled 14 with 476 - sampling time: 0.025684833526611328
+8642: Sampled 6 with 1587 - sampling time: 0.04240226745605469
+8640: Sampled 8 with 1401 - sampling time: 0.028725147247314453
+8638: Sampled 6 with 931 - sampling time: 0.02605462074279785
+8637: Sampled 11 with 740 - sampling time: 0.029105424880981445
+8640: Sampled 9 with 1403 - sampling time: 0.021437883377075195
+8638: Sampled 7 with 946 - sampling time: 0.026952266693115234
+8637: Sampled 12 with 748 - sampling time: 0.022760868072509766
+8642: Sampled 7 with 1644 - sampling time: 0.03375983238220215
+8642: Sampled 8 with 1708 - sampling time: 0.01139211654663086
+8640: Sampled 10 with 1408 - sampling time: 0.025537490844726562
+8638: Sampled 8 with 980 - sampling time: 0.02333378791809082
+8637: Sampled 13 with 757 - sampling time: 0.023835182189941406
+8642: Sampled 9 with 1742 - sampling time: 0.012317895889282227
+8638: Sampled 9 with 1045 - sampling time: 0.012987136840820312
+8642: Sampled 10 with 1750 - sampling time: 0.012058734893798828
+8638: Sampled 10 with 1111 - sampling time: 0.011851787567138672
+8640: Sampled 11 with 1409 - sampling time: 0.03370094299316406
+8642: Sampled 11 with 1756 - sampling time: 0.011634588241577148
+8638: Sampled 11 with 1124 - sampling time: 0.010097980499267578
+8637: Sampled 14 with 793 - sampling time: 0.03299379348754883
+8642: Sampled 12 with 1766 - sampling time: 0.01189732551574707
+8638: Sampled 12 with 1131 - sampling time: 0.010729074478149414
+8642: Sampled 13 with 1818 - sampling time: 0.012810707092285156
+8638: Sampled 13 with 1242 - sampling time: 0.010783672332763672
+8640: Sampled 12 with 1422 - sampling time: 0.030231475830078125
+8642: Sampled 14 with 1828 - sampling time: 0.011560201644897461
+8638: Sampled 14 with 1257 - sampling time: 0.009656667709350586
+8640: Sampled 13 with 1427 - sampling time: 0.027768373489379883
+8640: Sampled 14 with 1431 - sampling time: 0.023240327835083008
+--- total time: 0.5263757705688477 seconds ---
+Output samples created on:  ./Samples/smarch_mp/BerkeleyDBC_97.samples
+
+real	0m0.575s
+user	0m1.526s
+sys	0m0.805s

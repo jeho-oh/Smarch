@@ -1,0 +1,106 @@
+Input file:  ./FeatureModel/fiasco_17_10.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_basic/smarch
+Counting - Total configurations: 10298439168
+Sampling 1 with 4495615680 - sampling time: 3.781104564666748
+Sampling 2 with 2197733789 - sampling time: 3.4025208950042725
+Sampling 3 with 8064120605 - sampling time: 3.59955096244812
+Sampling 4 with 5534710346 - sampling time: 3.458709478378296
+Sampling 5 with 3819914405 - sampling time: 3.421077013015747
+Sampling 6 with 454792378 - sampling time: 3.310944080352783
+Sampling 7 with 2316584694 - sampling time: 3.4243521690368652
+Sampling 8 with 6772518671 - sampling time: 3.42348313331604
+Sampling 9 with 4722222817 - sampling time: 3.4775149822235107
+Sampling 10 with 5573441985 - sampling time: 3.7197024822235107
+Sampling 11 with 955539994 - sampling time: 3.383681535720825
+Sampling 12 with 8927462841 - sampling time: 3.429476261138916
+Sampling 13 with 4702557308 - sampling time: 3.610877752304077
+Sampling 14 with 9427310001 - sampling time: 3.56103777885437
+Sampling 15 with 4049876146 - sampling time: 3.3934788703918457
+Sampling 16 with 6454072615 - sampling time: 3.4471778869628906
+Sampling 17 with 5913703934 - sampling time: 3.6216540336608887
+Sampling 18 with 2189963796 - sampling time: 3.442654609680176
+Sampling 19 with 4175629202 - sampling time: 3.4450623989105225
+Sampling 20 with 198173733 - sampling time: 3.4816384315490723
+Sampling 21 with 2636845165 - sampling time: 3.3769571781158447
+Sampling 22 with 1612391668 - sampling time: 3.4174797534942627
+Sampling 23 with 4957384028 - sampling time: 3.4964189529418945
+Sampling 24 with 607332849 - sampling time: 3.383422613143921
+Sampling 25 with 8015574047 - sampling time: 3.5897915363311768
+Sampling 26 with 8885091493 - sampling time: 3.5650811195373535
+Sampling 27 with 3716949719 - sampling time: 3.4183921813964844
+Sampling 28 with 1860233621 - sampling time: 3.393352746963501
+Sampling 29 with 5178883525 - sampling time: 3.448267936706543
+Sampling 30 with 1338155149 - sampling time: 3.3891985416412354
+Sampling 31 with 4513827510 - sampling time: 3.4010090827941895
+Sampling 32 with 2162223397 - sampling time: 3.3531136512756348
+Sampling 33 with 6668220883 - sampling time: 3.424994945526123
+Sampling 34 with 2138724015 - sampling time: 3.4144537448883057
+Sampling 35 with 1638560946 - sampling time: 3.4656858444213867
+Sampling 36 with 8281875453 - sampling time: 3.7187108993530273
+Sampling 37 with 3317689609 - sampling time: 3.4202888011932373
+Sampling 38 with 6270789116 - sampling time: 3.4889652729034424
+Sampling 39 with 6474143334 - sampling time: 3.370258331298828
+Sampling 40 with 9781154679 - sampling time: 3.501565456390381
+Sampling 41 with 7765475220 - sampling time: 3.473895788192749
+Sampling 42 with 1700949749 - sampling time: 3.429666519165039
+Sampling 43 with 6420008218 - sampling time: 3.408721923828125
+Sampling 44 with 2728851762 - sampling time: 3.390841245651245
+Sampling 45 with 418189975 - sampling time: 3.5084805488586426
+Sampling 46 with 2030936619 - sampling time: 3.3458774089813232
+Sampling 47 with 5774357637 - sampling time: 3.622586965560913
+Sampling 48 with 4167067614 - sampling time: 3.5203418731689453
+Sampling 49 with 9941304355 - sampling time: 3.648813486099243
+Sampling 50 with 7167313549 - sampling time: 3.584327220916748
+Sampling 51 with 3583086817 - sampling time: 3.5854501724243164
+Sampling 52 with 9703270654 - sampling time: 3.652643918991089
+Sampling 53 with 7753005410 - sampling time: 3.5253236293792725
+Sampling 54 with 8296670767 - sampling time: 3.8069355487823486
+Sampling 55 with 4823052660 - sampling time: 3.677938222885132
+Sampling 56 with 10020194794 - sampling time: 3.623027801513672
+Sampling 57 with 3968524736 - sampling time: 3.509997844696045
+Sampling 58 with 3767959185 - sampling time: 3.43501353263855
+Sampling 59 with 1109430678 - sampling time: 3.454563617706299
+Sampling 60 with 3198095053 - sampling time: 3.701568126678467
+Sampling 61 with 9665746136 - sampling time: 3.78747820854187
+Sampling 62 with 6136612318 - sampling time: 3.566787004470825
+Sampling 63 with 7943380346 - sampling time: 3.6804358959198
+Sampling 64 with 1331703934 - sampling time: 3.484020471572876
+Sampling 65 with 2177104770 - sampling time: 3.4951822757720947
+Sampling 66 with 3952579508 - sampling time: 3.5245532989501953
+Sampling 67 with 8487513526 - sampling time: 3.809685707092285
+Sampling 68 with 9189846359 - sampling time: 3.570197105407715
+Sampling 69 with 1856781059 - sampling time: 3.573673725128174
+Sampling 70 with 4853591836 - sampling time: 3.633054733276367
+Sampling 71 with 6885806700 - sampling time: 3.6168854236602783
+Sampling 72 with 5489916402 - sampling time: 3.674577474594116
+Sampling 73 with 3040049118 - sampling time: 3.590629816055298
+Sampling 74 with 7458640081 - sampling time: 3.547347068786621
+Sampling 75 with 9530295545 - sampling time: 3.8553264141082764
+Sampling 76 with 6615174446 - sampling time: 3.5020415782928467
+Sampling 77 with 7628303068 - sampling time: 3.6382012367248535
+Sampling 78 with 527172664 - sampling time: 3.4565141201019287
+Sampling 79 with 8946457319 - sampling time: 3.6309597492218018
+Sampling 80 with 9539780782 - sampling time: 3.6305112838745117
+Sampling 81 with 7343788729 - sampling time: 3.7609455585479736
+Sampling 82 with 8358266591 - sampling time: 3.615114450454712
+Sampling 83 with 2251219061 - sampling time: 3.467278242111206
+Sampling 84 with 7773487950 - sampling time: 3.569247007369995
+Sampling 85 with 5568022342 - sampling time: 3.668440818786621
+Sampling 86 with 2888951139 - sampling time: 3.6328773498535156
+Sampling 87 with 5442515070 - sampling time: 3.5308010578155518
+Sampling 88 with 933387440 - sampling time: 3.5495455265045166
+Sampling 89 with 9956318744 - sampling time: 3.650590419769287
+Sampling 90 with 2724116077 - sampling time: 3.5091638565063477
+Sampling 91 with 9087155698 - sampling time: 3.5546209812164307
+Sampling 92 with 889902211 - sampling time: 3.4400622844696045
+Sampling 93 with 503082238 - sampling time: 3.4813649654388428
+Sampling 94 with 309973583 - sampling time: 3.6042163372039795
+Sampling 95 with 1342406556 - sampling time: 3.4590470790863037
+Sampling 96 with 3990927861 - sampling time: 3.5470762252807617
+Sampling 97 with 5596663401 - sampling time: 3.6363964080810547
+--- total time: 342.7407314777374 seconds ---
+
+real	5m42.795s
+user	4m27.404s
+sys	1m20.997s

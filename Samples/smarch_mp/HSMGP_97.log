@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/HSMGP.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 3456
+Counting time: 0.08711910247802734
+31327: Sampled 1 with 13 - sampling time: 0.05304217338562012
+31331: Sampled 1 with 1430 - sampling time: 0.05998706817626953
+31329: Sampled 1 with 908 - sampling time: 0.07024312019348145
+31328: Sampled 1 with 519 - sampling time: 0.09180426597595215
+31334: Sampled 1 with 2555 - sampling time: 0.0982370376586914
+31335: Sampled 1 with 3016 - sampling time: 0.1045694351196289
+31327: Sampled 2 with 19 - sampling time: 0.06107497215270996
+31331: Sampled 2 with 1444 - sampling time: 0.06658577919006348
+31332: Sampled 1 with 1883 - sampling time: 0.1319446563720703
+31329: Sampled 2 with 957 - sampling time: 0.08170580863952637
+31327: Sampled 3 with 32 - sampling time: 0.04745984077453613
+31334: Sampled 2 with 2624 - sampling time: 0.06683778762817383
+31328: Sampled 2 with 526 - sampling time: 0.0899815559387207
+31331: Sampled 3 with 1451 - sampling time: 0.06191730499267578
+31335: Sampled 2 with 3064 - sampling time: 0.12540173530578613
+31327: Sampled 4 with 66 - sampling time: 0.08098840713500977
+31334: Sampled 3 with 2637 - sampling time: 0.07600712776184082
+31329: Sampled 3 with 1057 - sampling time: 0.1024177074432373
+31331: Sampled 4 with 1456 - sampling time: 0.06785130500793457
+31332: Sampled 2 with 1910 - sampling time: 0.13762521743774414
+31328: Sampled 3 with 539 - sampling time: 0.09447050094604492
+31332: Sampled 3 with 1967 - sampling time: 0.01795363426208496
+31332: Sampled 4 with 2011 - sampling time: 0.01563429832458496
+31334: Sampled 4 with 2660 - sampling time: 0.06595921516418457
+31329: Sampled 4 with 1200 - sampling time: 0.06407523155212402
+31327: Sampled 5 with 90 - sampling time: 0.0780329704284668
+31332: Sampled 5 with 2066 - sampling time: 0.046031951904296875
+31335: Sampled 3 with 3074 - sampling time: 0.12639689445495605
+31331: Sampled 5 with 1549 - sampling time: 0.1036233901977539
+31329: Sampled 5 with 1214 - sampling time: 0.04626035690307617
+31328: Sampled 4 with 542 - sampling time: 0.10171055793762207
+31327: Sampled 6 with 91 - sampling time: 0.06613564491271973
+31332: Sampled 6 with 2171 - sampling time: 0.0406801700592041
+31329: Sampled 6 with 1230 - sampling time: 0.05403852462768555
+31334: Sampled 5 with 2724 - sampling time: 0.11156916618347168
+31332: Sampled 7 with 2188 - sampling time: 0.06074047088623047
+31327: Sampled 7 with 167 - sampling time: 0.0903313159942627
+31329: Sampled 7 with 1235 - sampling time: 0.05953407287597656
+31331: Sampled 6 with 1590 - sampling time: 0.13176918029785156
+31328: Sampled 5 with 548 - sampling time: 0.12525033950805664
+31335: Sampled 4 with 3085 - sampling time: 0.1524059772491455
+31332: Sampled 8 with 2309 - sampling time: 0.06781935691833496
+31329: Sampled 8 with 1238 - sampling time: 0.05043673515319824
+31334: Sampled 6 with 2767 - sampling time: 0.1112678050994873
+31328: Sampled 6 with 648 - sampling time: 0.05104541778564453
+31332: Sampled 9 with 2353 - sampling time: 0.04941987991333008
+31327: Sampled 8 with 180 - sampling time: 0.09519481658935547
+31329: Sampled 9 with 1244 - sampling time: 0.04924774169921875
+31328: Sampled 7 with 657 - sampling time: 0.03520703315734863
+31332: Sampled 10 with 2390 - sampling time: 0.032317161560058594
+31334: Sampled 7 with 2799 - sampling time: 0.07883524894714355
+31331: Sampled 7 with 1602 - sampling time: 0.12923860549926758
+31335: Sampled 5 with 3097 - sampling time: 0.13142085075378418
+31332: Sampled 11 with 2435 - sampling time: 0.052376508712768555
+31329: Sampled 10 with 1282 - sampling time: 0.08080697059631348
+31327: Sampled 9 with 282 - sampling time: 0.09210658073425293
+31328: Sampled 8 with 716 - sampling time: 0.09302186965942383
+31334: Sampled 8 with 2833 - sampling time: 0.08815383911132812
+31328: Sampled 9 with 763 - sampling time: 0.0647728443145752
+31329: Sampled 11 with 1293 - sampling time: 0.09260416030883789
+31332: Sampled 12 with 2461 - sampling time: 0.10014128684997559
+31327: Sampled 10 with 325 - sampling time: 0.09074592590332031
+31335: Sampled 6 with 3148 - sampling time: 0.1153554916381836
+31331: Sampled 8 with 1608 - sampling time: 0.13514494895935059
+31334: Sampled 9 with 2834 - sampling time: 0.08307552337646484
+31328: Sampled 10 with 782 - sampling time: 0.0348818302154541
+31332: Sampled 13 with 2540 - sampling time: 0.04329323768615723
+31329: Sampled 12 with 1302 - sampling time: 0.07866120338439941
+31327: Sampled 11 with 332 - sampling time: 0.08841824531555176
+31334: Sampled 10 with 2871 - sampling time: 0.08783435821533203
+31335: Sampled 7 with 3175 - sampling time: 0.1168513298034668
+31328: Sampled 11 with 839 - sampling time: 0.09692025184631348
+31332: Sampled 14 with 2553 - sampling time: 0.08542180061340332
+31331: Sampled 9 with 1668 - sampling time: 0.14960193634033203
+31329: Sampled 13 with 1361 - sampling time: 0.08913445472717285
+31334: Sampled 11 with 2882 - sampling time: 0.05423116683959961
+31327: Sampled 12 with 347 - sampling time: 0.08749175071716309
+31328: Sampled 12 with 867 - sampling time: 0.050682783126831055
+31335: Sampled 8 with 3204 - sampling time: 0.10013127326965332
+31334: Sampled 12 with 2895 - sampling time: 0.057317256927490234
+31328: Sampled 13 with 872 - sampling time: 0.05885028839111328
+31329: Sampled 14 with 1394 - sampling time: 0.07483696937561035
+31327: Sampled 13 with 383 - sampling time: 0.08715176582336426
+31331: Sampled 10 with 1692 - sampling time: 0.12415218353271484
+31328: Sampled 14 with 877 - sampling time: 0.04540276527404785
+31335: Sampled 9 with 3235 - sampling time: 0.10050320625305176
+31334: Sampled 13 with 2956 - sampling time: 0.09798336029052734
+31327: Sampled 14 with 496 - sampling time: 0.079132080078125
+31331: Sampled 11 with 1694 - sampling time: 0.10129284858703613
+31334: Sampled 14 with 2982 - sampling time: 0.06717348098754883
+31335: Sampled 10 with 3271 - sampling time: 0.07644963264465332
+31331: Sampled 12 with 1700 - sampling time: 0.08396720886230469
+31335: Sampled 11 with 3275 - sampling time: 0.06948328018188477
+31335: Sampled 12 with 3287 - sampling time: 0.06802034378051758
+31331: Sampled 13 with 1837 - sampling time: 0.08126187324523926
+31335: Sampled 13 with 3337 - sampling time: 0.06719636917114258
+31331: Sampled 14 with 1866 - sampling time: 0.07814311981201172
+--- total time: 1.482743501663208 seconds ---
+Output samples created on:  ./Samples/smarch_mp/HSMGP_97.samples
+
+real	0m1.535s
+user	0m4.579s
+sys	0m2.687s

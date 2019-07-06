@@ -1,0 +1,106 @@
+Input file:  ./FeatureModel/HSMGP.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_basic/smarch
+Counting - Total configurations: 3456
+Sampling 1 with 530 - sampling time: 0.19152379035949707
+Sampling 2 with 1727 - sampling time: 0.2071385383605957
+Sampling 3 with 2482 - sampling time: 0.2017827033996582
+Sampling 4 with 436 - sampling time: 0.14802026748657227
+Sampling 5 with 2729 - sampling time: 0.22350406646728516
+Sampling 6 with 2904 - sampling time: 0.20168519020080566
+Sampling 7 with 1668 - sampling time: 0.1993858814239502
+Sampling 8 with 1833 - sampling time: 0.18631362915039062
+Sampling 9 with 1763 - sampling time: 0.1788184642791748
+Sampling 10 with 646 - sampling time: 0.1759655475616455
+Sampling 11 with 2128 - sampling time: 0.1626133918762207
+Sampling 12 with 2156 - sampling time: 0.18631863594055176
+Sampling 13 with 443 - sampling time: 0.16988062858581543
+Sampling 14 with 1921 - sampling time: 0.1729745864868164
+Sampling 15 with 1713 - sampling time: 0.17875909805297852
+Sampling 16 with 41 - sampling time: 0.15237760543823242
+Sampling 17 with 1834 - sampling time: 0.18307065963745117
+Sampling 18 with 3066 - sampling time: 0.1812121868133545
+Sampling 19 with 2003 - sampling time: 0.16617298126220703
+Sampling 20 with 424 - sampling time: 0.16768598556518555
+Sampling 21 with 119 - sampling time: 0.17257452011108398
+Sampling 22 with 1965 - sampling time: 0.17301440238952637
+Sampling 23 with 1045 - sampling time: 0.14745688438415527
+Sampling 24 with 221 - sampling time: 0.16727280616760254
+Sampling 25 with 3250 - sampling time: 0.1841890811920166
+Sampling 26 with 167 - sampling time: 0.16024136543273926
+Sampling 27 with 736 - sampling time: 0.18552803993225098
+Sampling 28 with 208 - sampling time: 0.1663825511932373
+Sampling 29 with 1190 - sampling time: 0.16788125038146973
+Sampling 30 with 2451 - sampling time: 0.1728363037109375
+Sampling 31 with 67 - sampling time: 0.16123533248901367
+Sampling 32 with 1557 - sampling time: 0.17936396598815918
+Sampling 33 with 732 - sampling time: 0.18580245971679688
+Sampling 34 with 1087 - sampling time: 0.16720914840698242
+Sampling 35 with 946 - sampling time: 0.16642260551452637
+Sampling 36 with 1726 - sampling time: 0.1999661922454834
+Sampling 37 with 3057 - sampling time: 0.20756196975708008
+Sampling 38 with 2349 - sampling time: 0.19401764869689941
+Sampling 39 with 1018 - sampling time: 0.16672515869140625
+Sampling 40 with 1534 - sampling time: 0.1668107509613037
+Sampling 41 with 12 - sampling time: 0.16276812553405762
+Sampling 42 with 3443 - sampling time: 0.1948864459991455
+Sampling 43 with 3244 - sampling time: 0.17089438438415527
+Sampling 44 with 1697 - sampling time: 0.19942092895507812
+Sampling 45 with 2778 - sampling time: 0.1727888584136963
+Sampling 46 with 1254 - sampling time: 0.1720132827758789
+Sampling 47 with 3380 - sampling time: 0.2008683681488037
+Sampling 48 with 596 - sampling time: 0.16121935844421387
+Sampling 49 with 1871 - sampling time: 0.17842507362365723
+Sampling 50 with 109 - sampling time: 0.14761042594909668
+Sampling 51 with 1884 - sampling time: 0.18687963485717773
+Sampling 52 with 1017 - sampling time: 0.17262005805969238
+Sampling 53 with 2053 - sampling time: 0.160172700881958
+Sampling 54 with 3174 - sampling time: 0.19158458709716797
+Sampling 55 with 2650 - sampling time: 0.159010648727417
+Sampling 56 with 1633 - sampling time: 0.17876935005187988
+Sampling 57 with 853 - sampling time: 0.1737964153289795
+Sampling 58 with 2042 - sampling time: 0.17380094528198242
+Sampling 59 with 3058 - sampling time: 0.1927342414855957
+Sampling 60 with 2572 - sampling time: 0.20012569427490234
+Sampling 61 with 870 - sampling time: 0.1540517807006836
+Sampling 62 with 2861 - sampling time: 0.2020251750946045
+Sampling 63 with 1481 - sampling time: 0.18469548225402832
+Sampling 64 with 3083 - sampling time: 0.18179583549499512
+Sampling 65 with 1027 - sampling time: 0.15333127975463867
+Sampling 66 with 553 - sampling time: 0.17849016189575195
+Sampling 67 with 2236 - sampling time: 0.15363693237304688
+Sampling 68 with 2928 - sampling time: 0.19969916343688965
+Sampling 69 with 864 - sampling time: 0.20455336570739746
+Sampling 70 with 1882 - sampling time: 0.16683340072631836
+Sampling 71 with 3200 - sampling time: 0.20019316673278809
+Sampling 72 with 2406 - sampling time: 0.19313573837280273
+Sampling 73 with 1902 - sampling time: 0.18532371520996094
+Sampling 74 with 1074 - sampling time: 0.18573904037475586
+Sampling 75 with 1182 - sampling time: 0.18534207344055176
+Sampling 76 with 2976 - sampling time: 0.16629266738891602
+Sampling 77 with 10 - sampling time: 0.14710211753845215
+Sampling 78 with 493 - sampling time: 0.1666584014892578
+Sampling 79 with 3433 - sampling time: 0.20008540153503418
+Sampling 80 with 1581 - sampling time: 0.19826006889343262
+Sampling 81 with 3295 - sampling time: 0.1668999195098877
+Sampling 82 with 1198 - sampling time: 0.17949342727661133
+Sampling 83 with 1564 - sampling time: 0.18597102165222168
+Sampling 84 with 194 - sampling time: 0.17326855659484863
+Sampling 85 with 1662 - sampling time: 0.18631720542907715
+Sampling 86 with 3151 - sampling time: 0.16031694412231445
+Sampling 87 with 1335 - sampling time: 0.166579008102417
+Sampling 88 with 527 - sampling time: 0.15971636772155762
+Sampling 89 with 2200 - sampling time: 0.1608138084411621
+Sampling 90 with 21 - sampling time: 0.1460568904876709
+Sampling 91 with 803 - sampling time: 0.18532276153564453
+Sampling 92 with 3410 - sampling time: 0.18752837181091309
+Sampling 93 with 1768 - sampling time: 0.15335369110107422
+Sampling 94 with 1958 - sampling time: 0.1855790615081787
+Sampling 95 with 2239 - sampling time: 0.1608128547668457
+Sampling 96 with 2674 - sampling time: 0.17501211166381836
+Sampling 97 with 280 - sampling time: 0.16631174087524414
+--- total time: 17.195524215698242 seconds ---
+
+real	0m17.243s
+user	0m11.111s
+sys	0m6.666s

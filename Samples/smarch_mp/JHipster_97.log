@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/JHipster.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 26256
+Counting time: 0.08099031448364258
+12175: Sampled 1 with 1518 - sampling time: 0.07314610481262207
+12184: Sampled 1 with 23739 - sampling time: 0.08588528633117676
+12176: Sampled 1 with 6336 - sampling time: 0.10040545463562012
+12183: Sampled 1 with 19170 - sampling time: 0.10270214080810547
+12179: Sampled 1 with 12360 - sampling time: 0.11172938346862793
+12178: Sampled 1 with 8858 - sampling time: 0.11181640625
+12181: Sampled 1 with 15989 - sampling time: 0.11733174324035645
+12175: Sampled 2 with 1818 - sampling time: 0.06283211708068848
+12184: Sampled 2 with 23788 - sampling time: 0.09235930442810059
+12181: Sampled 2 with 16184 - sampling time: 0.07866406440734863
+12176: Sampled 2 with 6572 - sampling time: 0.12328672409057617
+12179: Sampled 2 with 13121 - sampling time: 0.11274337768554688
+12175: Sampled 3 with 2179 - sampling time: 0.09501981735229492
+12178: Sampled 2 with 8919 - sampling time: 0.11726808547973633
+12183: Sampled 2 with 19265 - sampling time: 0.13557195663452148
+12184: Sampled 3 with 23975 - sampling time: 0.06500482559204102
+12181: Sampled 3 with 16189 - sampling time: 0.06737089157104492
+12179: Sampled 3 with 13285 - sampling time: 0.06877517700195312
+12184: Sampled 4 with 24395 - sampling time: 0.06478500366210938
+12178: Sampled 3 with 10431 - sampling time: 0.08499693870544434
+12183: Sampled 3 with 19942 - sampling time: 0.08793520927429199
+12176: Sampled 3 with 6584 - sampling time: 0.10500383377075195
+12175: Sampled 4 with 2265 - sampling time: 0.10566306114196777
+12181: Sampled 4 with 16636 - sampling time: 0.07472443580627441
+12184: Sampled 5 with 24420 - sampling time: 0.05958890914916992
+12179: Sampled 4 with 13385 - sampling time: 0.08018040657043457
+12183: Sampled 4 with 20411 - sampling time: 0.058420419692993164
+12178: Sampled 4 with 10634 - sampling time: 0.08429121971130371
+12181: Sampled 5 with 16821 - sampling time: 0.07378196716308594
+12176: Sampled 4 with 6742 - sampling time: 0.10983562469482422
+12179: Sampled 5 with 13667 - sampling time: 0.06533646583557129
+12184: Sampled 6 with 24421 - sampling time: 0.07003235816955566
+12183: Sampled 5 with 20451 - sampling time: 0.06449437141418457
+12181: Sampled 6 with 17347 - sampling time: 0.05318903923034668
+12175: Sampled 5 with 2818 - sampling time: 0.13373041152954102
+12178: Sampled 5 with 10742 - sampling time: 0.09471869468688965
+12179: Sampled 6 with 14233 - sampling time: 0.06627488136291504
+12184: Sampled 7 with 24430 - sampling time: 0.07056188583374023
+12183: Sampled 6 with 20707 - sampling time: 0.06925773620605469
+12181: Sampled 7 with 17551 - sampling time: 0.06067800521850586
+12176: Sampled 5 with 6865 - sampling time: 0.1110382080078125
+12184: Sampled 8 with 24658 - sampling time: 0.05679154396057129
+12175: Sampled 6 with 3099 - sampling time: 0.10530543327331543
+12179: Sampled 7 with 14241 - sampling time: 0.07574129104614258
+12181: Sampled 8 with 17716 - sampling time: 0.05896759033203125
+12178: Sampled 6 with 10856 - sampling time: 0.10019040107727051
+12183: Sampled 7 with 20711 - sampling time: 0.07335567474365234
+12181: Sampled 9 with 17887 - sampling time: 0.0519106388092041
+12179: Sampled 8 with 14292 - sampling time: 0.06378960609436035
+12176: Sampled 6 with 7234 - sampling time: 0.10278964042663574
+12183: Sampled 8 with 21185 - sampling time: 0.06319093704223633
+12184: Sampled 9 with 25821 - sampling time: 0.09888601303100586
+12178: Sampled 7 with 10899 - sampling time: 0.0897681713104248
+12175: Sampled 7 with 3146 - sampling time: 0.11264729499816895
+12181: Sampled 10 with 18193 - sampling time: 0.06357979774475098
+12183: Sampled 9 with 21737 - sampling time: 0.059403419494628906
+12179: Sampled 9 with 15449 - sampling time: 0.0940544605255127
+12184: Sampled 10 with 25973 - sampling time: 0.08928298950195312
+12176: Sampled 7 with 7300 - sampling time: 0.11553502082824707
+12181: Sampled 11 with 18384 - sampling time: 0.0806729793548584
+12176: Sampled 8 with 7427 - sampling time: 0.019132375717163086
+12178: Sampled 8 with 10909 - sampling time: 0.10376405715942383
+12175: Sampled 8 with 3630 - sampling time: 0.10463070869445801
+12183: Sampled 10 with 22661 - sampling time: 0.07794594764709473
+12179: Sampled 10 with 15673 - sampling time: 0.09241271018981934
+12181: Sampled 12 with 18385 - sampling time: 0.06229519844055176
+12184: Sampled 11 with 26063 - sampling time: 0.10362029075622559
+12176: Sampled 9 with 7622 - sampling time: 0.08485817909240723
+12183: Sampled 11 with 22761 - sampling time: 0.09549403190612793
+12175: Sampled 9 with 4243 - sampling time: 0.115966796875
+12178: Sampled 9 with 11091 - sampling time: 0.12732601165771484
+12179: Sampled 11 with 15689 - sampling time: 0.10142874717712402
+12181: Sampled 13 with 18733 - sampling time: 0.10284638404846191
+12176: Sampled 10 with 7773 - sampling time: 0.08555841445922852
+12184: Sampled 12 with 26091 - sampling time: 0.12043118476867676
+12183: Sampled 12 with 22853 - sampling time: 0.08946514129638672
+12175: Sampled 10 with 4294 - sampling time: 0.10997676849365234
+12179: Sampled 12 with 15799 - sampling time: 0.08897209167480469
+12181: Sampled 14 with 18957 - sampling time: 0.09747862815856934
+12178: Sampled 10 with 11207 - sampling time: 0.13600659370422363
+12176: Sampled 11 with 8242 - sampling time: 0.11592864990234375
+12183: Sampled 13 with 22939 - sampling time: 0.09476780891418457
+12184: Sampled 13 with 26219 - sampling time: 0.09855294227600098
+12175: Sampled 11 with 4756 - sampling time: 0.06983256340026855
+12179: Sampled 13 with 15831 - sampling time: 0.09857416152954102
+12178: Sampled 11 with 11353 - sampling time: 0.10988640785217285
+12183: Sampled 14 with 23276 - sampling time: 0.09351134300231934
+12175: Sampled 12 with 4987 - sampling time: 0.08414769172668457
+12176: Sampled 12 with 8388 - sampling time: 0.10156989097595215
+12179: Sampled 14 with 15884 - sampling time: 0.07897567749023438
+12175: Sampled 13 with 5428 - sampling time: 0.07240843772888184
+12176: Sampled 13 with 8400 - sampling time: 0.07307839393615723
+12178: Sampled 12 with 11599 - sampling time: 0.09479260444641113
+12175: Sampled 14 with 5477 - sampling time: 0.06846928596496582
+12178: Sampled 13 with 12252 - sampling time: 0.06527209281921387
+12176: Sampled 14 with 8537 - sampling time: 0.07348084449768066
+12178: Sampled 14 with 12261 - sampling time: 0.056745052337646484
+--- total time: 1.4751968383789062 seconds ---
+Output samples created on:  ./Samples/smarch_mp/JHipster_97.samples
+
+real	0m1.530s
+user	0m5.004s
+sys	0m2.905s

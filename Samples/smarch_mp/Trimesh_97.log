@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/Trimesh.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 239360
+Counting time: 0.08977293968200684
+25017: Sampled 1 with 189552 - sampling time: 0.03749871253967285
+25018: Sampled 1 with 221957 - sampling time: 0.0859379768371582
+25013: Sampled 1 with 53999 - sampling time: 0.09826135635375977
+25017: Sampled 2 with 191321 - sampling time: 0.06738495826721191
+25014: Sampled 1 with 103107 - sampling time: 0.15297293663024902
+25013: Sampled 2 with 57449 - sampling time: 0.10718607902526855
+25018: Sampled 2 with 223470 - sampling time: 0.11900949478149414
+25016: Sampled 1 with 157582 - sampling time: 0.20626044273376465
+25012: Sampled 1 with 22661 - sampling time: 0.20733880996704102
+25017: Sampled 3 with 195547 - sampling time: 0.10986685752868652
+25011: Sampled 1 with 5549 - sampling time: 0.21822690963745117
+25013: Sampled 3 with 64538 - sampling time: 0.052262067794799805
+25018: Sampled 3 with 224134 - sampling time: 0.0838315486907959
+25014: Sampled 2 with 103273 - sampling time: 0.15848255157470703
+25017: Sampled 4 with 197203 - sampling time: 0.11522030830383301
+25013: Sampled 4 with 65437 - sampling time: 0.13477230072021484
+25012: Sampled 2 with 23170 - sampling time: 0.1940596103668213
+25018: Sampled 4 with 228641 - sampling time: 0.12482094764709473
+25016: Sampled 2 with 161176 - sampling time: 0.23067998886108398
+25017: Sampled 5 with 197940 - sampling time: 0.11624264717102051
+25011: Sampled 2 with 5672 - sampling time: 0.27491116523742676
+25014: Sampled 3 with 104492 - sampling time: 0.18274140357971191
+25017: Sampled 6 with 201753 - sampling time: 0.07380127906799316
+25013: Sampled 5 with 73642 - sampling time: 0.14319491386413574
+25018: Sampled 5 with 228725 - sampling time: 0.14471721649169922
+25012: Sampled 3 with 23846 - sampling time: 0.17119836807250977
+25018: Sampled 6 with 231097 - sampling time: 0.019089460372924805
+25016: Sampled 3 with 164145 - sampling time: 0.19092011451721191
+25013: Sampled 6 with 73643 - sampling time: 0.09820437431335449
+25017: Sampled 7 with 202013 - sampling time: 0.12907886505126953
+25018: Sampled 7 with 232399 - sampling time: 0.07334494590759277
+25014: Sampled 4 with 108831 - sampling time: 0.19162559509277344
+25011: Sampled 3 with 5772 - sampling time: 0.20389652252197266
+25013: Sampled 7 with 76816 - sampling time: 0.08269381523132324
+25018: Sampled 8 with 232899 - sampling time: 0.0928506851196289
+25017: Sampled 8 with 203179 - sampling time: 0.10681390762329102
+25012: Sampled 4 with 28902 - sampling time: 0.19197702407836914
+25018: Sampled 9 with 234647 - sampling time: 0.05215620994567871
+25016: Sampled 4 with 166701 - sampling time: 0.18802666664123535
+25018: Sampled 10 with 236011 - sampling time: 0.057250261306762695
+25017: Sampled 9 with 204628 - sampling time: 0.10016655921936035
+25014: Sampled 5 with 108997 - sampling time: 0.20046710968017578
+25013: Sampled 8 with 77777 - sampling time: 0.17821121215820312
+25011: Sampled 4 with 8147 - sampling time: 0.20039772987365723
+25018: Sampled 11 with 236330 - sampling time: 0.06306600570678711
+25016: Sampled 5 with 167637 - sampling time: 0.12639904022216797
+25017: Sampled 10 with 209061 - sampling time: 0.10392642021179199
+25018: Sampled 12 with 236566 - sampling time: 0.06674385070800781
+25012: Sampled 5 with 31185 - sampling time: 0.2352910041809082
+25017: Sampled 11 with 211902 - sampling time: 0.051738739013671875
+25013: Sampled 9 with 80292 - sampling time: 0.1540975570678711
+25018: Sampled 13 with 238252 - sampling time: 0.07570910453796387
+25014: Sampled 6 with 122192 - sampling time: 0.19101810455322266
+25011: Sampled 5 with 8202 - sampling time: 0.18332624435424805
+25013: Sampled 10 with 80898 - sampling time: 0.061545610427856445
+25017: Sampled 12 with 213174 - sampling time: 0.10747146606445312
+25016: Sampled 6 with 170053 - sampling time: 0.18557953834533691
+25017: Sampled 13 with 213967 - sampling time: 0.08768200874328613
+25013: Sampled 11 with 82448 - sampling time: 0.10355472564697266
+25012: Sampled 6 with 31882 - sampling time: 0.21663355827331543
+25011: Sampled 6 with 8214 - sampling time: 0.15255022048950195
+25014: Sampled 7 with 123660 - sampling time: 0.179107666015625
+25017: Sampled 14 with 220191 - sampling time: 0.07259488105773926
+25016: Sampled 7 with 171933 - sampling time: 0.1833171844482422
+25013: Sampled 12 with 89128 - sampling time: 0.1218109130859375
+25012: Sampled 7 with 34620 - sampling time: 0.17684531211853027
+25011: Sampled 7 with 12376 - sampling time: 0.17900443077087402
+25014: Sampled 8 with 127928 - sampling time: 0.16408848762512207
+25013: Sampled 13 with 95080 - sampling time: 0.12556076049804688
+25016: Sampled 8 with 177578 - sampling time: 0.16179919242858887
+25012: Sampled 8 with 34632 - sampling time: 0.16083812713623047
+25014: Sampled 9 with 130250 - sampling time: 0.13768553733825684
+25011: Sampled 8 with 14229 - sampling time: 0.1801924705505371
+25013: Sampled 14 with 99978 - sampling time: 0.141524076461792
+25016: Sampled 9 with 180156 - sampling time: 0.15917253494262695
+25012: Sampled 9 with 38375 - sampling time: 0.15397405624389648
+25014: Sampled 10 with 144680 - sampling time: 0.15111279487609863
+25011: Sampled 9 with 15463 - sampling time: 0.14960980415344238
+25016: Sampled 10 with 184000 - sampling time: 0.13675403594970703
+25014: Sampled 11 with 152700 - sampling time: 0.11496376991271973
+25012: Sampled 10 with 44723 - sampling time: 0.14270281791687012
+25011: Sampled 10 with 17185 - sampling time: 0.14840459823608398
+25016: Sampled 11 with 184080 - sampling time: 0.14380407333374023
+25014: Sampled 12 with 154201 - sampling time: 0.1522831916809082
+25011: Sampled 11 with 19605 - sampling time: 0.09541869163513184
+25012: Sampled 11 with 44732 - sampling time: 0.1483004093170166
+25016: Sampled 12 with 188053 - sampling time: 0.1430513858795166
+25011: Sampled 12 with 20678 - sampling time: 0.0867161750793457
+25014: Sampled 13 with 155261 - sampling time: 0.14499878883361816
+25012: Sampled 12 with 45599 - sampling time: 0.15008902549743652
+25012: Sampled 13 with 46111 - sampling time: 0.025849580764770508
+25011: Sampled 13 with 21019 - sampling time: 0.12307167053222656
+25016: Sampled 13 with 188415 - sampling time: 0.16441631317138672
+25012: Sampled 14 with 49863 - sampling time: 0.07935523986816406
+25014: Sampled 14 with 156926 - sampling time: 0.16671252250671387
+25011: Sampled 14 with 22603 - sampling time: 0.1357250213623047
+25016: Sampled 14 with 189349 - sampling time: 0.12556910514831543
+--- total time: 2.45282244682312 seconds ---
+Output samples created on:  ./Samples/smarch_mp/Trimesh_97.samples
+
+real	0m2.505s
+user	0m7.991s
+sys	0m4.159s
