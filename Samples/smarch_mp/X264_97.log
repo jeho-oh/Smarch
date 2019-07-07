@@ -1,0 +1,108 @@
+Input file:  ./FeatureModel/X264.dimacs
+Number of samples:  97
+Output directory: ./Samples/smarch_mp
+Counting - Total configurations: 1152
+Counting time: 0.04093337059020996
+11411: Sampled 1 with 223 - sampling time: 0.014045000076293945
+11416: Sampled 1 with 682 - sampling time: 0.0128326416015625
+11423: Sampled 1 with 1066 - sampling time: 0.014995336532592773
+11415: Sampled 1 with 525 - sampling time: 0.01739358901977539
+11410: Sampled 1 with 4 - sampling time: 0.020364761352539062
+11412: Sampled 1 with 348 - sampling time: 0.019651174545288086
+11418: Sampled 1 with 886 - sampling time: 0.018583297729492188
+11411: Sampled 2 with 234 - sampling time: 0.012987136840820312
+11416: Sampled 2 with 692 - sampling time: 0.013330936431884766
+11415: Sampled 2 with 549 - sampling time: 0.011183500289916992
+11410: Sampled 2 with 21 - sampling time: 0.009999513626098633
+11412: Sampled 2 with 350 - sampling time: 0.016036272048950195
+11423: Sampled 2 with 1071 - sampling time: 0.019879579544067383
+11418: Sampled 2 with 894 - sampling time: 0.0163571834564209
+11411: Sampled 3 with 243 - sampling time: 0.017504453659057617
+11416: Sampled 3 with 701 - sampling time: 0.017961740493774414
+11415: Sampled 3 with 552 - sampling time: 0.016001224517822266
+11410: Sampled 3 with 34 - sampling time: 0.01566767692565918
+11423: Sampled 3 with 1079 - sampling time: 0.01573967933654785
+11412: Sampled 3 with 383 - sampling time: 0.017691612243652344
+11418: Sampled 3 with 925 - sampling time: 0.016214370727539062
+11411: Sampled 4 with 259 - sampling time: 0.014018058776855469
+11415: Sampled 4 with 553 - sampling time: 0.012688159942626953
+11410: Sampled 4 with 82 - sampling time: 0.014867067337036133
+11416: Sampled 4 with 706 - sampling time: 0.015352725982666016
+11423: Sampled 4 with 1095 - sampling time: 0.011515378952026367
+11418: Sampled 4 with 943 - sampling time: 0.013240337371826172
+11412: Sampled 4 with 402 - sampling time: 0.014450311660766602
+11411: Sampled 5 with 262 - sampling time: 0.014833927154541016
+11416: Sampled 5 with 750 - sampling time: 0.013862371444702148
+11415: Sampled 5 with 571 - sampling time: 0.01625967025756836
+11410: Sampled 5 with 97 - sampling time: 0.01734471321105957
+11423: Sampled 5 with 1108 - sampling time: 0.013787984848022461
+11412: Sampled 5 with 408 - sampling time: 0.015220880508422852
+11418: Sampled 5 with 949 - sampling time: 0.01699352264404297
+11411: Sampled 6 with 273 - sampling time: 0.011589288711547852
+11415: Sampled 6 with 576 - sampling time: 0.012805461883544922
+11416: Sampled 6 with 756 - sampling time: 0.013326168060302734
+11423: Sampled 6 with 1109 - sampling time: 0.013888359069824219
+11410: Sampled 6 with 108 - sampling time: 0.016593456268310547
+11418: Sampled 6 with 955 - sampling time: 0.01082158088684082
+11412: Sampled 6 with 410 - sampling time: 0.011911869049072266
+11411: Sampled 7 with 282 - sampling time: 0.01271963119506836
+11415: Sampled 7 with 578 - sampling time: 0.016894102096557617
+11416: Sampled 7 with 790 - sampling time: 0.016484737396240234
+11423: Sampled 7 with 1113 - sampling time: 0.015480279922485352
+11410: Sampled 7 with 119 - sampling time: 0.013802289962768555
+11418: Sampled 7 with 965 - sampling time: 0.014398813247680664
+11412: Sampled 7 with 422 - sampling time: 0.014297723770141602
+11416: Sampled 8 with 825 - sampling time: 0.013220071792602539
+11411: Sampled 8 with 283 - sampling time: 0.02121448516845703
+11423: Sampled 8 with 1114 - sampling time: 0.011162042617797852
+11410: Sampled 8 with 132 - sampling time: 0.013758659362792969
+11418: Sampled 8 with 968 - sampling time: 0.012668609619140625
+11415: Sampled 8 with 632 - sampling time: 0.019183874130249023
+11412: Sampled 8 with 427 - sampling time: 0.017609119415283203
+11423: Sampled 9 with 1115 - sampling time: 0.011248111724853516
+11411: Sampled 9 with 290 - sampling time: 0.011888265609741211
+11416: Sampled 9 with 826 - sampling time: 0.01356816291809082
+11410: Sampled 9 with 144 - sampling time: 0.01559305191040039
+11418: Sampled 9 with 983 - sampling time: 0.016806602478027344
+11415: Sampled 9 with 640 - sampling time: 0.016117334365844727
+11412: Sampled 9 with 434 - sampling time: 0.014773845672607422
+11411: Sampled 10 with 300 - sampling time: 0.01422882080078125
+11416: Sampled 10 with 833 - sampling time: 0.014644861221313477
+11423: Sampled 10 with 1120 - sampling time: 0.016731739044189453
+11410: Sampled 10 with 153 - sampling time: 0.013358116149902344
+11418: Sampled 10 with 991 - sampling time: 0.014079809188842773
+11415: Sampled 10 with 644 - sampling time: 0.014786481857299805
+11412: Sampled 10 with 451 - sampling time: 0.012523412704467773
+11423: Sampled 11 with 1121 - sampling time: 0.010911703109741211
+11416: Sampled 11 with 836 - sampling time: 0.012830257415771484
+11411: Sampled 11 with 301 - sampling time: 0.015969038009643555
+11410: Sampled 11 with 161 - sampling time: 0.015020132064819336
+11418: Sampled 11 with 1001 - sampling time: 0.015192747116088867
+11412: Sampled 11 with 461 - sampling time: 0.01591038703918457
+11415: Sampled 11 with 650 - sampling time: 0.016663312911987305
+11416: Sampled 12 with 859 - sampling time: 0.015046834945678711
+11411: Sampled 12 with 319 - sampling time: 0.018813133239746094
+11423: Sampled 12 with 1132 - sampling time: 0.022613525390625
+11410: Sampled 12 with 172 - sampling time: 0.016182661056518555
+11418: Sampled 12 with 1008 - sampling time: 0.017328262329101562
+11415: Sampled 12 with 672 - sampling time: 0.01466989517211914
+11412: Sampled 12 with 489 - sampling time: 0.018074989318847656
+11416: Sampled 13 with 860 - sampling time: 0.01581859588623047
+11411: Sampled 13 with 342 - sampling time: 0.01518869400024414
+11423: Sampled 13 with 1148 - sampling time: 0.014561891555786133
+11410: Sampled 13 with 193 - sampling time: 0.01416015625
+11418: Sampled 13 with 1011 - sampling time: 0.015507936477661133
+11415: Sampled 13 with 676 - sampling time: 0.016536712646484375
+11412: Sampled 13 with 508 - sampling time: 0.015717744827270508
+11416: Sampled 14 with 882 - sampling time: 0.01531982421875
+11411: Sampled 14 with 346 - sampling time: 0.012288570404052734
+11410: Sampled 14 with 203 - sampling time: 0.016635894775390625
+11415: Sampled 14 with 679 - sampling time: 0.012313127517700195
+11418: Sampled 14 with 1049 - sampling time: 0.014260292053222656
+11412: Sampled 14 with 523 - sampling time: 0.011335611343383789
+--- total time: 0.27004122734069824 seconds ---
+Output samples created on:  ./Samples/smarch_mp/X264_97.samples
+
+real	0m0.319s
+user	0m0.988s
+sys	0m0.468s

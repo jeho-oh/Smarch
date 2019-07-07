@@ -8,6 +8,6 @@ Traceback (most recent call last):
     with open(dimacsfile_) as df:
 FileNotFoundError: [Errno 2] No such file or directory: './FeatureModel/axtls.dimacs'
 
-real	0m0.093s
-user	0m0.089s
-sys	0m0.004s
+real	0m0.098s
+user	0m0.090s
+sys	0m0.008s
