@@ -543,7 +543,7 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
 
         # recurse
         while not terminate:
-            cube, number, freevar, terminate, allfree = traverse(assigned, number)
+            cube, number, freevar, allfree, terminate = traverse(assigned, number)
 
             if terminate:
                 assigned = assigned + cube
