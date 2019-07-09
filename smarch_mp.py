@@ -503,6 +503,7 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
                 else:
                     if i == (len(_cubes) - 2):
                         _selected = _cubes[i+1].copy()
+                        r_ = r_ - _count
                         break
                     else:
                         r_ = r_ - _count
