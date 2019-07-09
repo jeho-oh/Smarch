@@ -178,7 +178,7 @@ def count_cc(assigned_, vcount_, clauses_, wdir_, processes_):
             os.makedirs(wdir_ + '/' + str(pid))
 
         for cube in cubes_:
-            gen_dimacs(vcount_, clauses_, cube, _tempdimacs)
+            gen_dimacs(vcount_, clauses_, cube + assigned_, _tempdimacs)
             cres = int(getoutput(SHARPSAT + ' -q ' + _tempdimacs))
 
             if DEBUG:
@@ -297,7 +297,7 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=1, quiet_=False):
     def get_random(rcount_, total_):
         def gen_random():
             while True:
-                yield random.randrange(1, total_, 1)
+                yield random.randrange(1, total_ + 1, 1)
 
         def gen_n_unique(source, n__):
             seen = set()
@@ -347,7 +347,7 @@ def master(vcount_, clauses_, n_, wdir_, const_=(), threads_=1, quiet_=False):
         for i in range(0, len(rlist)):
             plist.append(
                 multiprocessing.Process(target=sample,
-                                        args=(q, vcount_, clauses, rlist[i], wdir_, ccres, quiet_)))
+                                        args=(q, vcount_, clauses_, rlist[i], wdir_, ccres, quiet_)))
 
         # start processes
         for p in plist:
@@ -581,24 +581,24 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
 
 
 if __name__ == "__main__":
-    # test = True
-    # if test:
-    #     # test script
-    #     n = 97
-    #     target = "fiasco_17_10"
-    #
-    #     dimacs = srcdir + "/FeatureModel/" + target + ".dimacs"
-    #     constfile = os.path.dirname(dimacs) + "/constraints.txt"
-    #     wdir = os.path.dirname(dimacs) + "/smarch"
-    #
-    #     features, clauses, vcount = read_dimacs(dimacs)
-    #     const = read_constraints(constfile, features)
-    #
-    #     start_time = time.time()
-    #     samples = master(vcount, clauses, n, wdir, const, 1, False)
-    #     print("--- total time: %s seconds ---" % (time.time() - start_time))
-    #
-    #     sys.exit(0)
+    test = True
+    if test:
+        # test script
+        n = 192
+        target = "Apache"
+
+        dimacs = srcdir + "/FeatureModel/" + target + ".dimacs"
+        constfile = os.path.dirname(dimacs) + "/constraints.txt"
+        wdir = os.path.dirname(dimacs) + "/smarch"
+
+        features, clauses, vcount = read_dimacs(dimacs)
+        const = read_constraints(constfile, features)
+
+        start_time = time.time()
+        samples = master(vcount, clauses, n, wdir, const, 1, False)
+        print("--- total time: %s seconds ---" % (time.time() - start_time))
+
+        sys.exit(0)
 
     # run script
     # get external location for sharpSAT and march if needed
