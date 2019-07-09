@@ -581,24 +581,24 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
 
 
 if __name__ == "__main__":
-    test = True
-    if test:
-        # test script
-        n = 192
-        target = "Apache"
-
-        dimacs = srcdir + "/FeatureModel/" + target + ".dimacs"
-        constfile = os.path.dirname(dimacs) + "/constraints.txt"
-        wdir = os.path.dirname(dimacs) + "/smarch"
-
-        features, clauses, vcount = read_dimacs(dimacs)
-        const = read_constraints(constfile, features)
-
-        start_time = time.time()
-        samples = master(vcount, clauses, n, wdir, const, 1, False)
-        print("--- total time: %s seconds ---" % (time.time() - start_time))
-
-        sys.exit(0)
+    # test = True
+    # if test:
+    #     # test script
+    #     n = 192
+    #     target = "Apache"
+    #
+    #     dimacs = srcdir + "/FeatureModel/" + target + ".dimacs"
+    #     constfile = os.path.dirname(dimacs) + "/constraints.txt"
+    #     wdir = os.path.dirname(dimacs) + "/smarch"
+    #
+    #     features, clauses, vcount = read_dimacs(dimacs)
+    #     const = read_constraints(constfile, features)
+    #
+    #     start_time = time.time()
+    #     samples = master(vcount, clauses, n, wdir, const, 1, False)
+    #     print("--- total time: %s seconds ---" % (time.time() - start_time))
+    #
+    #     sys.exit(0)
 
     # run script
     # get external location for sharpSAT and march if needed
