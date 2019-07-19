@@ -221,7 +221,7 @@ def sample(vcount_, clauses_, n_, wdir_, const_=(), quiet_=False, samplefile_=""
             if number_ % 2 == 1:
                 _vars.append(_v)
             else:
-                _vars.append('-'+_v)
+                _vars.append(-1 * _v)
             number_ //= 2
 
         return _vars
