@@ -15,7 +15,7 @@ Smarch python script uses following additional package: pycosat
 
 ## How to run
 ```python
-python3 smarch_opt.py -c <constfile> -o <outputdir> -p <processes> -q <dimacsfile> <samplecount>
+python3 smarch_opt.py -c <constfile> -o <outputdir> -p <processes> -q | <dimacsfile> <samplecount>
 ```
 * dimacsfile: Location of the dimacs file.
 * samplecount: Number of samples to create.
