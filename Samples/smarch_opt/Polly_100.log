@@ -1,0 +1,111 @@
+Input file:  ./FeatureModel/Polly.dimacs
+Number of samples:  100
+Output directory: ./Samples/smarch_opt
+Counting - Total configurations: 40000
+Counting time: 0.08535099029541016
+29375: Sampled 1 with 348 - sampling time: 0.0673673152923584
+29377: Sampled 1 with 11124 - sampling time: 0.10714459419250488
+29387: Sampled 1 with 35656 - sampling time: 0.10996508598327637
+29385: Sampled 1 with 27517 - sampling time: 0.11189985275268555
+29376: Sampled 1 with 6993 - sampling time: 0.11790132522583008
+29379: Sampled 1 with 18867 - sampling time: 0.16648483276367188
+29375: Sampled 2 with 953 - sampling time: 0.15479350090026855
+29376: Sampled 2 with 7006 - sampling time: 0.11250066757202148
+29377: Sampled 2 with 11142 - sampling time: 0.12470722198486328
+29387: Sampled 2 with 35719 - sampling time: 0.1250767707824707
+29381: Sampled 1 with 21659 - sampling time: 0.24680280685424805
+29377: Sampled 3 with 11596 - sampling time: 0.050600290298461914
+29385: Sampled 2 with 28476 - sampling time: 0.1831681728363037
+29376: Sampled 3 with 7035 - sampling time: 0.1289653778076172
+29379: Sampled 2 with 19172 - sampling time: 0.19279980659484863
+29387: Sampled 3 with 35953 - sampling time: 0.13567376136779785
+29375: Sampled 3 with 957 - sampling time: 0.15796661376953125
+29376: Sampled 4 with 7131 - sampling time: 0.061981916427612305
+29377: Sampled 4 with 12210 - sampling time: 0.1421194076538086
+29381: Sampled 2 with 22283 - sampling time: 0.2196030616760254
+29385: Sampled 3 with 28632 - sampling time: 0.1720106601715088
+29376: Sampled 5 with 7192 - sampling time: 0.053819894790649414
+29379: Sampled 3 with 19379 - sampling time: 0.11669325828552246
+29387: Sampled 4 with 36344 - sampling time: 0.12323403358459473
+29375: Sampled 4 with 1410 - sampling time: 0.15238189697265625
+29377: Sampled 5 with 12306 - sampling time: 0.14426732063293457
+29379: Sampled 4 with 19432 - sampling time: 0.10795760154724121
+29376: Sampled 6 with 7358 - sampling time: 0.1339561939239502
+29385: Sampled 4 with 29243 - sampling time: 0.19050145149230957
+29387: Sampled 5 with 37217 - sampling time: 0.16402101516723633
+29381: Sampled 3 with 22294 - sampling time: 0.21127939224243164
+29375: Sampled 5 with 2181 - sampling time: 0.17203259468078613
+29377: Sampled 6 with 12617 - sampling time: 0.14437222480773926
+29379: Sampled 5 with 19638 - sampling time: 0.1558828353881836
+29376: Sampled 7 with 7615 - sampling time: 0.14092659950256348
+29381: Sampled 4 with 22576 - sampling time: 0.1118171215057373
+29387: Sampled 6 with 37517 - sampling time: 0.13479971885681152
+29385: Sampled 5 with 30597 - sampling time: 0.14014935493469238
+29377: Sampled 7 with 13928 - sampling time: 0.15038776397705078
+29375: Sampled 6 with 2545 - sampling time: 0.16906523704528809
+29379: Sampled 6 with 19947 - sampling time: 0.15541315078735352
+29376: Sampled 8 with 7760 - sampling time: 0.15463471412658691
+29387: Sampled 7 with 38815 - sampling time: 0.1445770263671875
+29381: Sampled 5 with 22651 - sampling time: 0.1549394130706787
+29385: Sampled 6 with 31767 - sampling time: 0.16639351844787598
+29377: Sampled 8 with 14739 - sampling time: 0.18235063552856445
+29376: Sampled 9 with 8257 - sampling time: 0.14280462265014648
+29387: Sampled 8 with 39084 - sampling time: 0.11536765098571777
+29379: Sampled 7 with 20181 - sampling time: 0.16750264167785645
+29375: Sampled 7 with 2707 - sampling time: 0.1911149024963379
+29385: Sampled 7 with 32959 - sampling time: 0.13481473922729492
+29381: Sampled 6 with 23320 - sampling time: 0.20395493507385254
+29377: Sampled 9 with 15510 - sampling time: 0.14724421501159668
+29387: Sampled 9 with 39151 - sampling time: 0.1547255516052246
+29376: Sampled 10 with 9507 - sampling time: 0.17534780502319336
+29385: Sampled 8 with 33238 - sampling time: 0.13573312759399414
+29377: Sampled 10 with 16102 - sampling time: 0.06130409240722656
+29379: Sampled 8 with 20258 - sampling time: 0.2011861801147461
+29375: Sampled 8 with 2810 - sampling time: 0.21240949630737305
+29387: Sampled 10 with 39949 - sampling time: 0.09380078315734863
+29377: Sampled 11 with 16108 - sampling time: 0.05296492576599121
+29385: Sampled 9 with 33397 - sampling time: 0.08826899528503418
+29381: Sampled 7 with 23497 - sampling time: 0.17587971687316895
+29377: Sampled 12 with 16173 - sampling time: 0.047460317611694336
+29376: Sampled 11 with 10441 - sampling time: 0.14099693298339844
+29379: Sampled 9 with 20630 - sampling time: 0.16023635864257812
+29385: Sampled 10 with 33655 - sampling time: 0.11934065818786621
+29375: Sampled 9 with 4763 - sampling time: 0.1838388442993164
+29377: Sampled 13 with 17214 - sampling time: 0.12516355514526367
+29381: Sampled 8 with 23795 - sampling time: 0.16441059112548828
+29376: Sampled 12 with 10496 - sampling time: 0.13965797424316406
+29385: Sampled 11 with 34401 - sampling time: 0.10735702514648438
+29375: Sampled 10 with 4900 - sampling time: 0.12610816955566406
+29385: Sampled 12 with 34561 - sampling time: 0.0351557731628418
+29377: Sampled 14 with 17223 - sampling time: 0.11800146102905273
+29385: Sampled 13 with 34580 - sampling time: 0.026576519012451172
+29379: Sampled 10 with 20917 - sampling time: 0.18925142288208008
+29377: Sampled 15 with 17671 - sampling time: 0.041675567626953125
+29385: Sampled 14 with 34955 - sampling time: 0.027234554290771484
+29376: Sampled 13 with 10640 - sampling time: 0.15919017791748047
+29381: Sampled 9 with 24061 - sampling time: 0.19132614135742188
+29375: Sampled 11 with 5164 - sampling time: 0.09738278388977051
+29385: Sampled 15 with 35291 - sampling time: 0.06957674026489258
+29381: Sampled 10 with 24176 - sampling time: 0.05568695068359375
+29379: Sampled 11 with 21192 - sampling time: 0.13645195960998535
+29376: Sampled 14 with 11079 - sampling time: 0.0942075252532959
+29375: Sampled 12 with 5776 - sampling time: 0.1404097080230713
+29376: Sampled 15 with 11101 - sampling time: 0.08245587348937988
+29381: Sampled 11 with 26301 - sampling time: 0.10825920104980469
+29379: Sampled 12 with 21281 - sampling time: 0.13245272636413574
+29381: Sampled 12 with 26575 - sampling time: 0.10131359100341797
+29375: Sampled 13 with 5871 - sampling time: 0.12611913681030273
+29379: Sampled 13 with 21471 - sampling time: 0.12929534912109375
+29381: Sampled 13 with 27233 - sampling time: 0.10883522033691406
+29375: Sampled 14 with 6012 - sampling time: 0.11479449272155762
+29381: Sampled 14 with 27342 - sampling time: 0.0684959888458252
+29375: Sampled 15 with 6969 - sampling time: 0.07375907897949219
+29379: Sampled 14 with 21579 - sampling time: 0.13544225692749023
+29381: Sampled 15 with 27423 - sampling time: 0.06182694435119629
+29379: Sampled 15 with 21609 - sampling time: 0.1280360221862793
+--- total time: 2.375553846359253 seconds ---
+Output samples created on:  ./Samples/smarch_opt/Polly_100.samples
+
+real	0m2.447s
+user	0m8.631s
+sys	0m4.096s

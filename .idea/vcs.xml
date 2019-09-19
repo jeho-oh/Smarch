@@ -3,5 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CnC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Replication/Distance-Based_Data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Replication/QuickSampler/quicksampler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Replication/QuickSampler/z3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Replication/SPLConqueror" vcs="Git" />
   </component>
 </project>

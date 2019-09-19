@@ -1,0 +1,530 @@
+<vm name="HiPAcc">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>1</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>2</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>3</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>4</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>5</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>6</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>7</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>8</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>9</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>10</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>11</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>12</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>13</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>14</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>15</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>16</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>17</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>18</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>19</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>20</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>21</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>22</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>23</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>24</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>25</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>26</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>27</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>28</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>29</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>30</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>31</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints>
+    <constraint>1</constraint>
+    <constraint>!1 | 2 | 3</constraint>
+    <constraint>!2 | !3</constraint>
+    <constraint>!4 | 5 | 6 | 7 | 8</constraint>
+    <constraint>!5 | !6</constraint>
+    <constraint>!5 | !7</constraint>
+    <constraint>!5 | !8</constraint>
+    <constraint>!6 | !7</constraint>
+    <constraint>!6 | !8</constraint>
+    <constraint>!7 | !8</constraint>
+    <constraint>!5 | 4</constraint>
+    <constraint>!6 | 4</constraint>
+    <constraint>!7 | 4</constraint>
+    <constraint>!8 | 4</constraint>
+    <constraint>!10 | !11</constraint>
+    <constraint>!10 | !12 | !13</constraint>
+    <constraint>!10 | !11 | !12 | !13</constraint>
+    <constraint>!10 | !12 | !14</constraint>
+    <constraint>!10 | !12 | !13 | !14</constraint>
+    <constraint>!10 | !11 | !12 | !14</constraint>
+    <constraint>!10 | !11 | !12 | !13 | !14</constraint>
+    <constraint>!15 | !16</constraint>
+    <constraint>!15 | !17</constraint>
+    <constraint>!15 | !16 | !17</constraint>
+    <constraint>!15 | !18</constraint>
+    <constraint>!15 | !17 | !18</constraint>
+    <constraint>!15 | !16 | !18</constraint>
+    <constraint>!15 | !16 | !17 | !18</constraint>
+    <constraint>!15 | !19</constraint>
+    <constraint>!15 | !18 | !19</constraint>
+    <constraint>!15 | !17 | !19</constraint>
+    <constraint>!15 | !17 | !18 | !19</constraint>
+    <constraint>!15 | !16 | !19</constraint>
+    <constraint>!15 | !16 | !18 | !19</constraint>
+    <constraint>!15 | !16 | !17 | !19</constraint>
+    <constraint>!15 | !16 | !17 | !18 | !19</constraint>
+    <constraint>!2 | !5</constraint>
+    <constraint>!2 | !6</constraint>
+    <constraint>!2 | !7</constraint>
+    <constraint>!22 | !29 | !9</constraint>
+    <constraint>!22 | !30 | !9</constraint>
+    <constraint>!23 | !29 | !9</constraint>
+    <constraint>!23 | !30 | !9</constraint>
+    <constraint>!24 | !29 | !9</constraint>
+    <constraint>!24 | !30 | !9</constraint>
+    <constraint>!25 | !29 | !9</constraint>
+    <constraint>!25 | !30 | !9</constraint>
+    <constraint>!26 | !29 | !9</constraint>
+    <constraint>!26 | !30 | !9</constraint>
+    <constraint>!27 | !28 | !9</constraint>
+    <constraint>!27 | !29 | !9</constraint>
+    <constraint>!27 | !30 | !9</constraint>
+    <constraint>!8 | 31</constraint>
+    <constraint>!22 | !10</constraint>
+    <constraint>!22 | !11</constraint>
+    <constraint>!22 | 12</constraint>
+    <constraint>!22 | !13</constraint>
+    <constraint>!22 | 14</constraint>
+    <constraint>22 | 10 | 11 | !12 | 13 | !14</constraint>
+    <constraint>!23 | !10</constraint>
+    <constraint>!23 | 11</constraint>
+    <constraint>!23 | !12</constraint>
+    <constraint>!23 | 13</constraint>
+    <constraint>!23 | !14</constraint>
+    <constraint>23 | 10 | !11 | 12 | !13 | 14</constraint>
+    <constraint>!24 | !10</constraint>
+    <constraint>!24 | 11</constraint>
+    <constraint>!24 | 12</constraint>
+    <constraint>!24 | 13</constraint>
+    <constraint>!24 | !14</constraint>
+    <constraint>24 | 10 | !11 | !12 | !13 | 14</constraint>
+    <constraint>!25 | 10</constraint>
+    <constraint>!25 | !11</constraint>
+    <constraint>!25 | !12</constraint>
+    <constraint>!25 | !13</constraint>
+    <constraint>!25 | 14</constraint>
+    <constraint>25 | !10 | 11 | 12 | 13 | !14</constraint>
+    <constraint>!26 | 10</constraint>
+    <constraint>!26 | !11</constraint>
+    <constraint>!26 | !12</constraint>
+    <constraint>!26 | 13</constraint>
+    <constraint>!26 | 14</constraint>
+    <constraint>26 | !10 | 11 | 12 | !13 | !14</constraint>
+    <constraint>!27 | 10</constraint>
+    <constraint>!27 | !11</constraint>
+    <constraint>!27 | 12</constraint>
+    <constraint>!27 | !13</constraint>
+    <constraint>!27 | !14</constraint>
+    <constraint>27 | !10 | 11 | !12 | 13 | 14</constraint>
+    <constraint>!28 | !20</constraint>
+    <constraint>!28 | 21</constraint>
+    <constraint>28 | 20 | !21</constraint>
+    <constraint>!29 | 20</constraint>
+    <constraint>!29 | !21</constraint>
+    <constraint>29 | !20 | 21</constraint>
+    <constraint>!30 | 20</constraint>
+    <constraint>!30 | 21</constraint>
+    <constraint>30 | !20 | !21</constraint>
+    <constraint>!31 | !15</constraint>
+    <constraint>!31 | !16</constraint>
+    <constraint>!31 | !17</constraint>
+    <constraint>!31 | !18</constraint>
+    <constraint>!31 | !19</constraint>
+    <constraint>31 | 15 | 16 | 17 | 18 | 19</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

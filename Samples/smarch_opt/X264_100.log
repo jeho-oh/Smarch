@@ -1,0 +1,111 @@
+Input file:  ./FeatureModel/X264.dimacs
+Number of samples:  100
+Output directory: ./Samples/smarch_opt
+Counting - Total configurations: 1152
+Counting time: 0.04021787643432617
+9537: Sampled 1 with 10 - sampling time: 0.014979839324951172
+9538: Sampled 1 with 210 - sampling time: 0.016774892807006836
+9544: Sampled 1 with 665 - sampling time: 0.016054391860961914
+9542: Sampled 1 with 508 - sampling time: 0.016535282135009766
+9549: Sampled 1 with 1050 - sampling time: 0.018012523651123047
+9539: Sampled 1 with 376 - sampling time: 0.02193450927734375
+9545: Sampled 1 with 826 - sampling time: 0.02002406120300293
+9542: Sampled 2 with 529 - sampling time: 0.010612726211547852
+9537: Sampled 2 with 38 - sampling time: 0.01449728012084961
+9544: Sampled 2 with 708 - sampling time: 0.012500762939453125
+9538: Sampled 2 with 214 - sampling time: 0.013239383697509766
+9545: Sampled 2 with 849 - sampling time: 0.016353130340576172
+9549: Sampled 2 with 1062 - sampling time: 0.01688528060913086
+9539: Sampled 2 with 394 - sampling time: 0.01836872100830078
+9538: Sampled 3 with 217 - sampling time: 0.013938188552856445
+9544: Sampled 3 with 727 - sampling time: 0.015254020690917969
+9537: Sampled 3 with 42 - sampling time: 0.021015644073486328
+9542: Sampled 3 with 534 - sampling time: 0.022304773330688477
+9549: Sampled 3 with 1063 - sampling time: 0.014317512512207031
+9545: Sampled 3 with 859 - sampling time: 0.015252351760864258
+9539: Sampled 3 with 398 - sampling time: 0.015588045120239258
+9538: Sampled 4 with 222 - sampling time: 0.015990018844604492
+9537: Sampled 4 with 46 - sampling time: 0.012373208999633789
+9544: Sampled 4 with 739 - sampling time: 0.017801284790039062
+9542: Sampled 4 with 560 - sampling time: 0.014474630355834961
+9545: Sampled 4 with 874 - sampling time: 0.011256217956542969
+9549: Sampled 4 with 1064 - sampling time: 0.012875556945800781
+9539: Sampled 4 with 399 - sampling time: 0.017182588577270508
+9538: Sampled 5 with 223 - sampling time: 0.01371312141418457
+9544: Sampled 5 with 745 - sampling time: 0.013204574584960938
+9537: Sampled 5 with 56 - sampling time: 0.015145540237426758
+9542: Sampled 5 with 575 - sampling time: 0.016544818878173828
+9549: Sampled 5 with 1068 - sampling time: 0.017729997634887695
+9545: Sampled 5 with 903 - sampling time: 0.020515918731689453
+9538: Sampled 6 with 239 - sampling time: 0.01447916030883789
+9539: Sampled 5 with 405 - sampling time: 0.0174868106842041
+9537: Sampled 6 with 64 - sampling time: 0.015822172164916992
+9544: Sampled 6 with 749 - sampling time: 0.017496347427368164
+9542: Sampled 6 with 580 - sampling time: 0.013603448867797852
+9549: Sampled 6 with 1078 - sampling time: 0.015160083770751953
+9538: Sampled 7 with 253 - sampling time: 0.011523008346557617
+9545: Sampled 6 with 918 - sampling time: 0.016309022903442383
+9539: Sampled 6 with 412 - sampling time: 0.013241767883300781
+9537: Sampled 7 with 92 - sampling time: 0.013162374496459961
+9544: Sampled 7 with 769 - sampling time: 0.016042709350585938
+9542: Sampled 7 with 583 - sampling time: 0.01485133171081543
+9549: Sampled 7 with 1088 - sampling time: 0.01570916175842285
+9538: Sampled 8 with 276 - sampling time: 0.017764568328857422
+9545: Sampled 7 with 925 - sampling time: 0.01901721954345703
+9537: Sampled 8 with 99 - sampling time: 0.01590251922607422
+9542: Sampled 8 with 593 - sampling time: 0.013142108917236328
+9539: Sampled 7 with 421 - sampling time: 0.01933741569519043
+9544: Sampled 8 with 772 - sampling time: 0.015990257263183594
+9538: Sampled 9 with 290 - sampling time: 0.015178442001342773
+9549: Sampled 8 with 1134 - sampling time: 0.017945528030395508
+9542: Sampled 9 with 597 - sampling time: 0.010597944259643555
+9545: Sampled 8 with 940 - sampling time: 0.014023303985595703
+9537: Sampled 9 with 103 - sampling time: 0.012790679931640625
+9539: Sampled 8 with 433 - sampling time: 0.018097400665283203
+9544: Sampled 9 with 773 - sampling time: 0.018070459365844727
+9549: Sampled 9 with 1139 - sampling time: 0.015158653259277344
+9538: Sampled 10 with 300 - sampling time: 0.016341686248779297
+9542: Sampled 10 with 613 - sampling time: 0.016234159469604492
+9537: Sampled 10 with 110 - sampling time: 0.018807649612426758
+9545: Sampled 9 with 952 - sampling time: 0.019231796264648438
+9539: Sampled 9 with 436 - sampling time: 0.013569116592407227
+9544: Sampled 10 with 774 - sampling time: 0.015153169631958008
+9538: Sampled 11 with 310 - sampling time: 0.012448787689208984
+9549: Sampled 10 with 1140 - sampling time: 0.01693892478942871
+9542: Sampled 11 with 615 - sampling time: 0.015061616897583008
+9545: Sampled 10 with 957 - sampling time: 0.014267683029174805
+9537: Sampled 11 with 127 - sampling time: 0.014650583267211914
+9539: Sampled 10 with 466 - sampling time: 0.013989448547363281
+9544: Sampled 11 with 790 - sampling time: 0.013414859771728516
+9542: Sampled 12 with 622 - sampling time: 0.01757502555847168
+9545: Sampled 11 with 959 - sampling time: 0.013963460922241211
+9537: Sampled 12 with 129 - sampling time: 0.01498866081237793
+9539: Sampled 11 with 477 - sampling time: 0.01488947868347168
+9538: Sampled 12 with 333 - sampling time: 0.022607088088989258
+9544: Sampled 12 with 794 - sampling time: 0.015606403350830078
+9542: Sampled 13 with 657 - sampling time: 0.009836912155151367
+9545: Sampled 12 with 971 - sampling time: 0.01139211654663086
+9538: Sampled 13 with 337 - sampling time: 0.010709047317504883
+9537: Sampled 13 with 145 - sampling time: 0.012291908264160156
+9539: Sampled 12 with 491 - sampling time: 0.012555360794067383
+9544: Sampled 13 with 813 - sampling time: 0.0151214599609375
+9542: Sampled 14 with 659 - sampling time: 0.012683629989624023
+9538: Sampled 14 with 348 - sampling time: 0.013680219650268555
+9545: Sampled 13 with 986 - sampling time: 0.014571428298950195
+9539: Sampled 13 with 495 - sampling time: 0.01676797866821289
+9537: Sampled 14 with 150 - sampling time: 0.017281770706176758
+9542: Sampled 15 with 663 - sampling time: 0.012063026428222656
+9544: Sampled 14 with 819 - sampling time: 0.015636682510375977
+9538: Sampled 15 with 354 - sampling time: 0.012886762619018555
+9545: Sampled 14 with 1024 - sampling time: 0.013769149780273438
+9539: Sampled 14 with 498 - sampling time: 0.01213979721069336
+9537: Sampled 15 with 179 - sampling time: 0.012034893035888672
+9544: Sampled 15 with 825 - sampling time: 0.010428428649902344
+9545: Sampled 15 with 1035 - sampling time: 0.009225130081176758
+9539: Sampled 15 with 501 - sampling time: 0.008237361907958984
+--- total time: 0.28918957710266113 seconds ---
+Output samples created on:  ./Samples/smarch_opt/X264_100.samples
+
+real	0m0.340s
+user	0m1.090s
+sys	0m0.443s

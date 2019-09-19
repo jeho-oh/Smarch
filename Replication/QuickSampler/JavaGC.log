@@ -1,0 +1,66 @@
+111000100111000101010100000100100000100 STARTING
+unsat
+Samples 1
+Execution time 0.00235516
+unsat
+Samples 1
+Execution time 0.00257585
+Samples 2
+Execution time 0.00407038
+Samples 4
+Execution time 0.0052289
+Samples 8
+Execution time 0.00635355
+Samples 8
+Execution time 0.00747109
+unsat
+Samples 8
+Execution time 0.00768663
+Samples 16
+Execution time 0.00894317
+Samples 32
+Execution time 0.010094
+Samples 32
+Execution time 0.0114462
+unsat
+Samples 32
+Execution time 0.0116819
+Samples 64
+Execution time 0.0131669
+Samples 127
+Execution time 0.014418
+Samples 247
+Execution time 0.015815
+Samples 247
+Execution time 0.0174993
+unsat
+Samples 247
+Execution time 0.0177421
+Samples 466
+Execution time 0.019072
+Samples 466
+Execution time 0.020351
+Samples 848
+Execution time 0.0217794
+unsat
+Samples 848
+Execution time 0.0220399
+Samples 1486
+Execution time 0.0235933
+Samples 2510
+Execution time 0.0260015
+Samples 4096
+Execution time 0.0284379
+Samples 4096
+Execution time 0.0295994
+Samples 6476
+Execution time 0.0334165
+Samples 9949
+Execution time 0.0381793
+Samples 14893
+Execution time 0.0435579
+Stopping: samples
+Samples 14893
+Execution time 0.0435712
+Solver time: 0.0281565
+Epochs 0, Flips 16, Unsat 6, Calls 28

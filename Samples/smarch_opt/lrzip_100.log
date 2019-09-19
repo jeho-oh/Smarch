@@ -1,0 +1,111 @@
+Input file:  ./FeatureModel/lrzip.dimacs
+Number of samples:  100
+Output directory: ./Samples/smarch_opt
+Counting - Total configurations: 144
+Counting time: 0.04222679138183594
+8361: Sampled 1 with 25 - sampling time: 0.01505589485168457
+8362: Sampled 1 with 43 - sampling time: 0.01487278938293457
+8360: Sampled 1 with 1 - sampling time: 0.01892852783203125
+8371: Sampled 1 with 129 - sampling time: 0.019749879837036133
+8362: Sampled 2 with 44 - sampling time: 0.015541553497314453
+8361: Sampled 2 with 27 - sampling time: 0.016141891479492188
+8360: Sampled 2 with 3 - sampling time: 0.01427006721496582
+8364: Sampled 1 with 64 - sampling time: 0.03253006935119629
+8371: Sampled 2 with 130 - sampling time: 0.01756739616394043
+8361: Sampled 3 with 28 - sampling time: 0.015891313552856445
+8362: Sampled 3 with 45 - sampling time: 0.016524553298950195
+8360: Sampled 3 with 5 - sampling time: 0.016400814056396484
+8371: Sampled 3 with 131 - sampling time: 0.016786575317382812
+8362: Sampled 4 with 46 - sampling time: 0.013973712921142578
+8360: Sampled 4 with 10 - sampling time: 0.011942148208618164
+8361: Sampled 4 with 29 - sampling time: 0.015041828155517578
+8371: Sampled 4 with 132 - sampling time: 0.010862588882446289
+8360: Sampled 5 with 11 - sampling time: 0.01324152946472168
+8362: Sampled 5 with 47 - sampling time: 0.016629934310913086
+8364: Sampled 2 with 68 - sampling time: 0.045989036560058594
+8361: Sampled 5 with 30 - sampling time: 0.017480134963989258
+8371: Sampled 5 with 133 - sampling time: 0.014125823974609375
+8366: Sampled 1 with 85 - sampling time: 0.08774662017822266
+8360: Sampled 6 with 13 - sampling time: 0.014513969421386719
+8361: Sampled 6 with 32 - sampling time: 0.016849040985107422
+8371: Sampled 6 with 134 - sampling time: 0.01729416847229004
+8360: Sampled 7 with 14 - sampling time: 0.013503313064575195
+8368: Sampled 1 with 107 - sampling time: 0.1019895076751709
+8362: Sampled 6 with 49 - sampling time: 0.031031131744384766
+8361: Sampled 7 with 33 - sampling time: 0.01766514778137207
+8371: Sampled 7 with 136 - sampling time: 0.01549673080444336
+8360: Sampled 8 with 15 - sampling time: 0.016442537307739258
+8364: Sampled 3 with 69 - sampling time: 0.045327186584472656
+8361: Sampled 8 with 35 - sampling time: 0.012672901153564453
+8371: Sampled 8 with 139 - sampling time: 0.012821435928344727
+8360: Sampled 9 with 16 - sampling time: 0.013391494750976562
+8362: Sampled 7 with 50 - sampling time: 0.02863001823425293
+8361: Sampled 9 with 36 - sampling time: 0.017311573028564453
+8371: Sampled 9 with 141 - sampling time: 0.018871307373046875
+8360: Sampled 10 with 17 - sampling time: 0.015152931213378906
+8361: Sampled 10 with 37 - sampling time: 0.015030860900878906
+8371: Sampled 10 with 143 - sampling time: 0.012207269668579102
+8366: Sampled 2 with 87 - sampling time: 0.07323026657104492
+8360: Sampled 11 with 18 - sampling time: 0.016557693481445312
+8364: Sampled 4 with 71 - sampling time: 0.04213404655456543
+8362: Sampled 8 with 53 - sampling time: 0.03216218948364258
+8361: Sampled 11 with 38 - sampling time: 0.014827728271484375
+8360: Sampled 12 with 19 - sampling time: 0.017563819885253906
+8361: Sampled 12 with 39 - sampling time: 0.014949560165405273
+8360: Sampled 13 with 21 - sampling time: 0.016089677810668945
+8361: Sampled 13 with 40 - sampling time: 0.010355710983276367
+8362: Sampled 9 with 54 - sampling time: 0.03000640869140625
+8368: Sampled 2 with 109 - sampling time: 0.10065484046936035
+8360: Sampled 14 with 22 - sampling time: 0.013350486755371094
+8361: Sampled 14 with 41 - sampling time: 0.014664411544799805
+8364: Sampled 5 with 73 - sampling time: 0.04996848106384277
+8360: Sampled 15 with 24 - sampling time: 0.012150287628173828
+8361: Sampled 15 with 42 - sampling time: 0.011262655258178711
+8362: Sampled 10 with 56 - sampling time: 0.026657819747924805
+8366: Sampled 3 with 88 - sampling time: 0.07054352760314941
+8362: Sampled 11 with 57 - sampling time: 0.025687217712402344
+8364: Sampled 6 with 74 - sampling time: 0.04449129104614258
+8362: Sampled 12 with 58 - sampling time: 0.022344589233398438
+8368: Sampled 3 with 110 - sampling time: 0.07623982429504395
+8362: Sampled 13 with 59 - sampling time: 0.021065950393676758
+8364: Sampled 7 with 75 - sampling time: 0.038724422454833984
+8366: Sampled 4 with 90 - sampling time: 0.06836271286010742
+8362: Sampled 14 with 60 - sampling time: 0.021607637405395508
+8368: Sampled 4 with 113 - sampling time: 0.05549430847167969
+8364: Sampled 8 with 76 - sampling time: 0.040012359619140625
+8362: Sampled 15 with 62 - sampling time: 0.02572178840637207
+8366: Sampled 5 with 91 - sampling time: 0.06690621376037598
+8364: Sampled 9 with 78 - sampling time: 0.0364842414855957
+8368: Sampled 5 with 114 - sampling time: 0.05659937858581543
+8364: Sampled 10 with 79 - sampling time: 0.03332948684692383
+8366: Sampled 6 with 92 - sampling time: 0.0585322380065918
+8364: Sampled 11 with 80 - sampling time: 0.03308391571044922
+8368: Sampled 6 with 115 - sampling time: 0.05374431610107422
+8366: Sampled 7 with 94 - sampling time: 0.0625154972076416
+8364: Sampled 12 with 81 - sampling time: 0.0498504638671875
+8368: Sampled 7 with 116 - sampling time: 0.0503842830657959
+8364: Sampled 13 with 82 - sampling time: 0.053286075592041016
+8366: Sampled 8 with 95 - sampling time: 0.05823636054992676
+8368: Sampled 8 with 117 - sampling time: 0.055805206298828125
+8364: Sampled 14 with 83 - sampling time: 0.05308842658996582
+8368: Sampled 9 with 118 - sampling time: 0.05243325233459473
+8366: Sampled 9 with 96 - sampling time: 0.05816817283630371
+8364: Sampled 15 with 84 - sampling time: 0.05382657051086426
+8368: Sampled 10 with 120 - sampling time: 0.05596113204956055
+8366: Sampled 10 with 100 - sampling time: 0.06776213645935059
+8368: Sampled 11 with 123 - sampling time: 0.048688411712646484
+8366: Sampled 11 with 101 - sampling time: 0.06318068504333496
+8368: Sampled 12 with 124 - sampling time: 0.04613327980041504
+8366: Sampled 12 with 102 - sampling time: 0.059471845626831055
+8368: Sampled 13 with 126 - sampling time: 0.047724008560180664
+8368: Sampled 14 with 127 - sampling time: 0.049588918685913086
+8366: Sampled 13 with 103 - sampling time: 0.06577277183532715
+8368: Sampled 15 with 128 - sampling time: 0.05064129829406738
+8366: Sampled 14 with 104 - sampling time: 0.06525492668151855
+8366: Sampled 15 with 105 - sampling time: 0.059563636779785156
+--- total time: 1.0432305335998535 seconds ---
+Output samples created on:  ./Samples/smarch_opt/lrzip_100.samples
+
+real	0m1.093s
+user	0m2.377s
+sys	0m1.230s

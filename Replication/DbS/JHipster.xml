@@ -1,0 +1,712 @@
+<vm name="JHipster">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>JHipster</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Hibernate2ndLvlCache</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>HazelCast</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>EhCache</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Server</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MicroserviceApplication</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UaaServer</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BackEnd</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Gradle</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Maven</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Generator</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Authentication</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SocialLogin</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Database</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SpringWebSockets</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Libsass</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClusteredSession</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InternationalizationSupport</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Docker</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>TestingFrameworks</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Production</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MySQL</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MariaDB</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PostgreSQL</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SQL</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Cassandra</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MongoDB</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Development</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>H2</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PostgreSQLDev</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MariaDBDev</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MySQLDev</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>DiskBased</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InMemory</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ElasticSearch</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>HTTPSession</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>OAuth2</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Uaa</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>JWT</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Protractor</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Gatling</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Cucumber</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Application</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MicroserviceGateway</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Monolithic</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints>
+    <constraint>JHipster</constraint>
+    <constraint>Hibernate2ndLvlCache | !HazelCast</constraint>
+    <constraint>Hibernate2ndLvlCache | !EhCache</constraint>
+    <constraint>HazelCast | EhCache | !Hibernate2ndLvlCache</constraint>
+    <constraint>!HazelCast | !EhCache</constraint>
+    <constraint>Server | !MicroserviceApplication</constraint>
+    <constraint>Server | !UaaServer</constraint>
+    <constraint>MicroserviceApplication | UaaServer | !Server</constraint>
+    <constraint>!MicroserviceApplication | !UaaServer</constraint>
+    <constraint>BackEnd | !Gradle</constraint>
+    <constraint>BackEnd | !Maven</constraint>
+    <constraint>Gradle | Maven | !BackEnd</constraint>
+    <constraint>!Gradle | !Maven</constraint>
+    <constraint>JHipster | !Generator</constraint>
+    <constraint>JHipster | !Authentication</constraint>
+    <constraint>JHipster | !SocialLogin</constraint>
+    <constraint>JHipster | !Database</constraint>
+    <constraint>JHipster | !SpringWebSockets</constraint>
+    <constraint>JHipster | !Libsass</constraint>
+    <constraint>JHipster | !ClusteredSession</constraint>
+    <constraint>JHipster | !BackEnd</constraint>
+    <constraint>JHipster | !InternationalizationSupport</constraint>
+    <constraint>JHipster | !Docker</constraint>
+    <constraint>JHipster | !TestingFrameworks</constraint>
+    <constraint>Generator | !JHipster</constraint>
+    <constraint>Authentication | !JHipster</constraint>
+    <constraint>BackEnd | !JHipster</constraint>
+    <constraint>TestingFrameworks | !JHipster</constraint>
+    <constraint>Production | !MySQL</constraint>
+    <constraint>Production | !MariaDB</constraint>
+    <constraint>Production | !PostgreSQL</constraint>
+    <constraint>MySQL | MariaDB | PostgreSQL | !Production</constraint>
+    <constraint>!MySQL | !MariaDB</constraint>
+    <constraint>!MySQL | !PostgreSQL</constraint>
+    <constraint>!MariaDB | !PostgreSQL</constraint>
+    <constraint>Database | !SQL</constraint>
+    <constraint>Database | !Cassandra</constraint>
+    <constraint>Database | !MongoDB</constraint>
+    <constraint>SQL | Cassandra | MongoDB | !Database</constraint>
+    <constraint>!SQL | !Cassandra</constraint>
+    <constraint>!SQL | !MongoDB</constraint>
+    <constraint>!Cassandra | !MongoDB</constraint>
+    <constraint>Development | !H2</constraint>
+    <constraint>Development | !PostgreSQLDev</constraint>
+    <constraint>Development | !MariaDBDev</constraint>
+    <constraint>Development | !MySQLDev</constraint>
+    <constraint>H2 | PostgreSQLDev | MariaDBDev | MySQLDev | !Development</constraint>
+    <constraint>!H2 | !PostgreSQLDev</constraint>
+    <constraint>!H2 | !MariaDBDev</constraint>
+    <constraint>!H2 | !MySQLDev</constraint>
+    <constraint>!PostgreSQLDev | !MariaDBDev</constraint>
+    <constraint>!PostgreSQLDev | !MySQLDev</constraint>
+    <constraint>!MariaDBDev | !MySQLDev</constraint>
+    <constraint>H2 | !DiskBased</constraint>
+    <constraint>H2 | !InMemory</constraint>
+    <constraint>DiskBased | InMemory | !H2</constraint>
+    <constraint>!DiskBased | !InMemory</constraint>
+    <constraint>SQL | !Hibernate2ndLvlCache</constraint>
+    <constraint>SQL | !Development</constraint>
+    <constraint>SQL | !Production</constraint>
+    <constraint>SQL | !ElasticSearch</constraint>
+    <constraint>Development | !SQL</constraint>
+    <constraint>Production | !SQL</constraint>
+    <constraint>Authentication | !HTTPSession</constraint>
+    <constraint>Authentication | !OAuth2</constraint>
+    <constraint>Authentication | !Uaa</constraint>
+    <constraint>Authentication | !JWT</constraint>
+    <constraint>HTTPSession | OAuth2 | Uaa | JWT | !Authentication</constraint>
+    <constraint>!HTTPSession | !OAuth2</constraint>
+    <constraint>!HTTPSession | !Uaa</constraint>
+    <constraint>!HTTPSession | !JWT</constraint>
+    <constraint>!OAuth2 | !Uaa</constraint>
+    <constraint>!OAuth2 | !JWT</constraint>
+    <constraint>!Uaa | !JWT</constraint>
+    <constraint>TestingFrameworks | !Protractor</constraint>
+    <constraint>TestingFrameworks | !Gatling</constraint>
+    <constraint>TestingFrameworks | !Cucumber</constraint>
+    <constraint>Gatling | !TestingFrameworks</constraint>
+    <constraint>Cucumber | !TestingFrameworks</constraint>
+    <constraint>Application | !MicroserviceGateway</constraint>
+    <constraint>Application | !Monolithic</constraint>
+    <constraint>MicroserviceGateway | Monolithic | !Application</constraint>
+    <constraint>!MicroserviceGateway | !Monolithic</constraint>
+    <constraint>Generator | !Server</constraint>
+    <constraint>Generator | !Application</constraint>
+    <constraint>Server | Application | !Generator</constraint>
+    <constraint>!Server | !Application</constraint>
+    <constraint>!OAuth2 | SocialLogin | MicroserviceApplication | SQL | MongoDB</constraint>
+    <constraint>!SocialLogin | HTTPSession | JWT</constraint>
+    <constraint>!SocialLogin | Monolithic</constraint>
+    <constraint>!SocialLogin | SQL | MongoDB</constraint>
+    <constraint>!UaaServer | Uaa</constraint>
+    <constraint>OAuth2 | SocialLogin | MicroserviceApplication | SQL | MongoDB | Cassandra</constraint>
+    <constraint>!Server | !Protractor</constraint>
+    <constraint>Server | Protractor</constraint>
+    <constraint>!MySQL | H2 | MySQLDev</constraint>
+    <constraint>!MicroserviceApplication | JWT | Uaa</constraint>
+    <constraint>!MicroserviceGateway | JWT | Uaa</constraint>
+    <constraint>!Monolithic | JWT | HTTPSession | OAuth2</constraint>
+    <constraint>!MariaDB | H2 | MariaDBDev</constraint>
+    <constraint>!PostgreSQL | H2 | PostgreSQLDev</constraint>
+    <constraint>!ClusteredSession | Application</constraint>
+    <constraint>!SpringWebSockets | Application</constraint>
+    <constraint>!Libsass | Application</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

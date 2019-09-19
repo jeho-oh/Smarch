@@ -1,0 +1,202 @@
+111010010 STARTING
+unsat
+Samples 1
+Execution time 0.00318386
+unsat
+Samples 1
+Execution time 0.00340663
+unsat
+Samples 1
+Execution time 0.00362043
+Samples 2
+Execution time 0.00451486
+Samples 4
+Execution time 0.0057659
+Samples 4
+Execution time 0.00665839
+Samples 8
+Execution time 0.00753036
+Samples 8
+Execution time 0.00860988
+Samples 16
+Execution time 0.00950323
+Samples 16
+Execution time 0.00950725
+Solver time: 0.00875233
+Epochs 1, Flips 4, Unsat 3, Calls 10
+111100001 STARTING
+Samples 18
+Execution time 0.0114375
+Samples 20
+Execution time 0.0122727
+Samples 20
+Execution time 0.0130695
+Samples 24
+Execution time 0.0139032
+Samples 32
+Execution time 0.0147025
+Samples 32
+Execution time 0.0156472
+Samples 32
+Execution time 0.015651
+Solver time: 0.0145755
+Epochs 2, Flips 8, Unsat 3, Calls 17
+111010001 STARTING
+Samples 34
+Execution time 0.0173834
+Samples 36
+Execution time 0.0183102
+Samples 36
+Execution time 0.0190674
+Samples 40
+Execution time 0.0197985
+Samples 48
+Execution time 0.0205284
+Samples 48
+Execution time 0.0214385
+Samples 48
+Execution time 0.0214429
+Solver time: 0.0200576
+Epochs 3, Flips 12, Unsat 3, Calls 24
+111100001 STARTING
+Samples 50
+Execution time 0.0233045
+Samples 52
+Execution time 0.0240802
+Samples 52
+Execution time 0.0248379
+Samples 56
+Execution time 0.025575
+Samples 64
+Execution time 0.0263697
+Samples 64
+Execution time 0.0272721
+Samples 64
+Execution time 0.0272763
+Solver time: 0.0255889
+Epochs 4, Flips 16, Unsat 3, Calls 31
+111010001 STARTING
+Samples 66
+Execution time 0.0288614
+Samples 68
+Execution time 0.0297156
+Samples 68
+Execution time 0.0303883
+Samples 72
+Execution time 0.0310692
+Samples 80
+Execution time 0.0317242
+Samples 80
+Execution time 0.0325195
+Samples 80
+Execution time 0.0325229
+Solver time: 0.0305643
+Epochs 5, Flips 20, Unsat 3, Calls 38
+111100001 STARTING
+Samples 82
+Execution time 0.0340207
+Samples 84
+Execution time 0.0346704
+Samples 84
+Execution time 0.0353154
+Samples 88
+Execution time 0.0359636
+Samples 96
+Execution time 0.0366134
+Samples 96
+Execution time 0.0374037
+Samples 96
+Execution time 0.0374071
+Solver time: 0.0351889
+Epochs 6, Flips 24, Unsat 3, Calls 45
+111010100 STARTING
+Samples 98
+Execution time 0.0390278
+Samples 100
+Execution time 0.0398228
+Samples 100
+Execution time 0.0404649
+Samples 104
+Execution time 0.0412681
+Samples 104
+Execution time 0.0419265
+Samples 112
+Execution time 0.0425879
+Samples 112
+Execution time 0.0425908
+Solver time: 0.0401072
+Epochs 7, Flips 28, Unsat 3, Calls 52
+111100100 STARTING
+Samples 114
+Execution time 0.0442257
+Samples 116
+Execution time 0.044878
+Samples 116
+Execution time 0.0455183
+Samples 120
+Execution time 0.0463197
+Samples 120
+Execution time 0.0469664
+Samples 128
+Execution time 0.0476278
+Samples 128
+Execution time 0.0476307
+Solver time: 0.0448869
+Epochs 8, Flips 32, Unsat 3, Calls 59
+111100100 STARTING
+Samples 130
+Execution time 0.049392
+Samples 132
+Execution time 0.0500437
+Samples 132
+Execution time 0.0506877
+Samples 136
+Execution time 0.0514844
+Samples 136
+Execution time 0.0521303
+Samples 144
+Execution time 0.0527796
+Samples 144
+Execution time 0.0527824
+Solver time: 0.049777
+Epochs 9, Flips 36, Unsat 3, Calls 66
+111100001 STARTING
+Samples 146
+Execution time 0.0542669
+Samples 148
+Execution time 0.0549144
+Samples 148
+Execution time 0.0555564
+Samples 152
+Execution time 0.0562311
+Samples 160
+Execution time 0.0568972
+Samples 160
+Execution time 0.0576966
+Samples 160
+Execution time 0.0577
+Solver time: 0.0544335
+Epochs 10, Flips 40, Unsat 3, Calls 73
+111001001 STARTING
+Samples 162
+Execution time 0.0591672
+Samples 164
+Execution time 0.0598115
+Samples 164
+Execution time 0.0606007
+Samples 168
+Execution time 0.0612494
+Samples 176
+Execution time 0.0619047
+Samples 176
+Execution time 0.0627027
+Samples 176
+Execution time 0.0627059
+Solver time: 0.0591778
+Epochs 11, Flips 44, Unsat 3, Calls 80
+111001100 STARTING
+Stopping: samples
+Samples 177
+Execution time 0.0635376
+Solver time: 0.0599492
+Epochs 11, Flips 44, Unsat 3, Calls 81

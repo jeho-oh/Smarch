@@ -1,0 +1,111 @@
+Input file:  ./FeatureModel/HiPAcc.dimacs
+Number of samples:  100
+Output directory: ./Samples/smarch_opt
+Counting - Total configurations: 13485
+Counting time: 0.08209395408630371
+7562: Sampled 1 with 50 - sampling time: 0.13632702827453613
+7564: Sampled 1 with 3229 - sampling time: 0.16402578353881836
+7563: Sampled 1 with 1684 - sampling time: 0.18069195747375488
+7573: Sampled 1 with 12588 - sampling time: 0.18437743186950684
+7568: Sampled 1 with 8372 - sampling time: 0.18675541877746582
+7570: Sampled 1 with 10821 - sampling time: 0.2096574306488037
+7566: Sampled 1 with 5950 - sampling time: 0.21494770050048828
+7562: Sampled 2 with 208 - sampling time: 0.16943740844726562
+7566: Sampled 2 with 6293 - sampling time: 0.10516595840454102
+7564: Sampled 2 with 3360 - sampling time: 0.16938209533691406
+7568: Sampled 2 with 8377 - sampling time: 0.18197059631347656
+7570: Sampled 2 with 10855 - sampling time: 0.19138598442077637
+7573: Sampled 2 with 12650 - sampling time: 0.22551226615905762
+7566: Sampled 3 with 6417 - sampling time: 0.1474144458770752
+7562: Sampled 3 with 214 - sampling time: 0.16681838035583496
+7564: Sampled 3 with 3438 - sampling time: 0.14202284812927246
+7563: Sampled 2 with 1912 - sampling time: 0.2951772212982178
+7568: Sampled 3 with 8422 - sampling time: 0.17845654487609863
+7573: Sampled 3 with 12754 - sampling time: 0.1710498332977295
+7570: Sampled 3 with 10924 - sampling time: 0.2007133960723877
+7564: Sampled 4 with 3454 - sampling time: 0.15228843688964844
+7566: Sampled 4 with 6544 - sampling time: 0.1698915958404541
+7562: Sampled 4 with 247 - sampling time: 0.19371342658996582
+7563: Sampled 3 with 2105 - sampling time: 0.2335653305053711
+7568: Sampled 4 with 8526 - sampling time: 0.16765379905700684
+7573: Sampled 4 with 12818 - sampling time: 0.13998627662658691
+7566: Sampled 5 with 6662 - sampling time: 0.11752796173095703
+7564: Sampled 5 with 3724 - sampling time: 0.1386094093322754
+7570: Sampled 4 with 11003 - sampling time: 0.2109212875366211
+7566: Sampled 6 with 6789 - sampling time: 0.09703350067138672
+7573: Sampled 5 with 12820 - sampling time: 0.15022063255310059
+7562: Sampled 5 with 335 - sampling time: 0.21943879127502441
+7568: Sampled 5 with 8717 - sampling time: 0.19217729568481445
+7563: Sampled 4 with 2176 - sampling time: 0.21747326850891113
+7564: Sampled 6 with 3912 - sampling time: 0.1809079647064209
+7566: Sampled 7 with 7015 - sampling time: 0.11811184883117676
+7570: Sampled 5 with 11044 - sampling time: 0.16623878479003906
+7562: Sampled 6 with 367 - sampling time: 0.09767293930053711
+7568: Sampled 6 with 9241 - sampling time: 0.12947940826416016
+7573: Sampled 6 with 12935 - sampling time: 0.18672466278076172
+7562: Sampled 7 with 396 - sampling time: 0.15002155303955078
+7564: Sampled 7 with 4053 - sampling time: 0.19354701042175293
+7566: Sampled 8 with 7543 - sampling time: 0.17679262161254883
+7568: Sampled 7 with 9551 - sampling time: 0.14157986640930176
+7570: Sampled 6 with 11239 - sampling time: 0.20405840873718262
+7563: Sampled 5 with 2335 - sampling time: 0.2667543888092041
+7573: Sampled 7 with 13180 - sampling time: 0.16702055931091309
+7566: Sampled 9 with 7569 - sampling time: 0.10227251052856445
+7562: Sampled 8 with 417 - sampling time: 0.12899231910705566
+7568: Sampled 8 with 9587 - sampling time: 0.14835643768310547
+7566: Sampled 10 with 7695 - sampling time: 0.13080191612243652
+7562: Sampled 9 with 699 - sampling time: 0.15124726295471191
+7573: Sampled 8 with 13213 - sampling time: 0.1872258186340332
+7564: Sampled 8 with 4339 - sampling time: 0.2794313430786133
+7570: Sampled 7 with 11413 - sampling time: 0.2443523406982422
+7563: Sampled 6 with 2489 - sampling time: 0.2712407112121582
+7568: Sampled 9 with 9694 - sampling time: 0.16102266311645508
+7566: Sampled 11 with 7869 - sampling time: 0.17506074905395508
+7562: Sampled 10 with 707 - sampling time: 0.14852023124694824
+7573: Sampled 9 with 13339 - sampling time: 0.16316580772399902
+7564: Sampled 9 with 4505 - sampling time: 0.1981351375579834
+7570: Sampled 8 with 11437 - sampling time: 0.19292283058166504
+7568: Sampled 10 with 9937 - sampling time: 0.17567706108093262
+7573: Sampled 10 with 13449 - sampling time: 0.11171555519104004
+7563: Sampled 7 with 2561 - sampling time: 0.24779915809631348
+7566: Sampled 12 with 7886 - sampling time: 0.16523194313049316
+7562: Sampled 11 with 722 - sampling time: 0.17363524436950684
+7563: Sampled 8 with 2637 - sampling time: 0.07364249229431152
+7570: Sampled 9 with 11446 - sampling time: 0.1838982105255127
+7568: Sampled 11 with 9969 - sampling time: 0.1719810962677002
+7564: Sampled 10 with 4544 - sampling time: 0.22499680519104004
+7566: Sampled 13 with 8026 - sampling time: 0.13680410385131836
+7563: Sampled 9 with 2638 - sampling time: 0.08397889137268066
+7562: Sampled 12 with 1028 - sampling time: 0.20559453964233398
+7570: Sampled 10 with 11595 - sampling time: 0.14021658897399902
+7568: Sampled 12 with 9979 - sampling time: 0.15950536727905273
+7566: Sampled 14 with 8082 - sampling time: 0.14294886589050293
+7563: Sampled 10 with 2769 - sampling time: 0.18546032905578613
+7564: Sampled 11 with 4616 - sampling time: 0.23954033851623535
+7568: Sampled 13 with 10317 - sampling time: 0.0881340503692627
+7570: Sampled 11 with 11606 - sampling time: 0.1572399139404297
+7562: Sampled 13 with 1368 - sampling time: 0.16374611854553223
+7566: Sampled 15 with 8300 - sampling time: 0.2056732177734375
+7570: Sampled 12 with 11696 - sampling time: 0.11719083786010742
+7568: Sampled 14 with 10397 - sampling time: 0.14973783493041992
+7563: Sampled 11 with 2771 - sampling time: 0.17835235595703125
+7562: Sampled 14 with 1419 - sampling time: 0.157731294631958
+7564: Sampled 12 with 4678 - sampling time: 0.20827627182006836
+7570: Sampled 13 with 11844 - sampling time: 0.09952783584594727
+7568: Sampled 15 with 10588 - sampling time: 0.1442861557006836
+7563: Sampled 12 with 2867 - sampling time: 0.15928339958190918
+7562: Sampled 15 with 1598 - sampling time: 0.14857125282287598
+7570: Sampled 14 with 12065 - sampling time: 0.10262036323547363
+7564: Sampled 13 with 5130 - sampling time: 0.15510201454162598
+7563: Sampled 13 with 2901 - sampling time: 0.11269712448120117
+7570: Sampled 15 with 12086 - sampling time: 0.08598732948303223
+7564: Sampled 14 with 5601 - sampling time: 0.1014246940612793
+7563: Sampled 14 with 3090 - sampling time: 0.11117815971374512
+7564: Sampled 15 with 5814 - sampling time: 0.12686538696289062
+7563: Sampled 15 with 3113 - sampling time: 0.09597921371459961
+--- total time: 2.8101327419281006 seconds ---
+Output samples created on:  ./Samples/smarch_opt/HiPAcc_100.samples
+
+real	0m2.865s
+user	0m10.744s
+sys	0m5.152s

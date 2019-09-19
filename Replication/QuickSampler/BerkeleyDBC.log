@@ -1,0 +1,126 @@
+01000110100 STARTING
+Samples 2
+Execution time 0.00977653
+unsat
+Samples 2
+Execution time 0.0105584
+Samples 4
+Execution time 0.0136759
+Samples 8
+Execution time 0.0167167
+Samples 16
+Execution time 0.0198952
+Samples 16
+Execution time 0.0231989
+Samples 32
+Execution time 0.0258383
+Samples 32
+Execution time 0.0274426
+unsat
+Samples 32
+Execution time 0.0277893
+Samples 64
+Execution time 0.0292635
+Samples 127
+Execution time 0.0305723
+Samples 127
+Execution time 0.03058
+Solver time: 0.0284537
+Epochs 1, Flips 7, Unsat 2, Calls 12
+01000110100 STARTING
+Samples 129
+Execution time 0.0334731
+Samples 131
+Execution time 0.0345798
+Samples 135
+Execution time 0.0356109
+Samples 143
+Execution time 0.0366998
+Samples 143
+Execution time 0.0382332
+Samples 159
+Execution time 0.0396477
+Samples 159
+Execution time 0.0405533
+Samples 191
+Execution time 0.0414812
+Samples 254
+Execution time 0.0424146
+Samples 254
+Execution time 0.0424198
+Solver time: 0.0396561
+Epochs 2, Flips 14, Unsat 2, Calls 22
+01000101100 STARTING
+Samples 256
+Execution time 0.0444114
+Samples 258
+Execution time 0.0451971
+Samples 262
+Execution time 0.0459878
+Samples 270
+Execution time 0.0467997
+Samples 270
+Execution time 0.0479768
+Samples 286
+Execution time 0.048787
+Samples 286
+Execution time 0.0498204
+Samples 318
+Execution time 0.0505553
+Samples 381
+Execution time 0.0512829
+Samples 381
+Execution time 0.051287
+Solver time: 0.0480339
+Epochs 3, Flips 21, Unsat 2, Calls 32
+01000110100 STARTING
+Samples 383
+Execution time 0.0529042
+Samples 385
+Execution time 0.0536028
+Samples 389
+Execution time 0.0543089
+Samples 397
+Execution time 0.0550431
+Samples 397
+Execution time 0.0560801
+Samples 413
+Execution time 0.0571297
+Samples 413
+Execution time 0.0578438
+Samples 445
+Execution time 0.0585776
+Samples 508
+Execution time 0.0593025
+Samples 508
+Execution time 0.0593065
+Solver time: 0.0556106
+Epochs 4, Flips 28, Unsat 2, Calls 42
+01001100100 STARTING
+Samples 510
+Execution time 0.0609098
+Samples 512
+Execution time 0.0618539
+Samples 516
+Execution time 0.0629731
+Samples 524
+Execution time 0.0641387
+Samples 524
+Execution time 0.0652134
+Samples 540
+Execution time 0.0659724
+Samples 540
+Execution time 0.0666861
+Samples 572
+Execution time 0.0674478
+Samples 635
+Execution time 0.0681845
+Samples 635
+Execution time 0.0681888
+Solver time: 0.0639507
+Epochs 5, Flips 35, Unsat 2, Calls 52
+Stopping: samples
+Samples 635
+Execution time 0.0682118
+Solver time: 0.0639507
+Epochs 5, Flips 35, Unsat 2, Calls 52

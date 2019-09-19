@@ -1,0 +1,2 @@
+Error opening input file
+sample.sh: line 6:  3754 Aborted                 (core dumped) ./quicksampler -n $2 ../../../FeatureModel/$1.dimacs

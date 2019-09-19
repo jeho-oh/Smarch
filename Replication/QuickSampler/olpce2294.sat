@@ -1,0 +1,22 @@
+Step 0.000700 s
+Probability 1.000000
+Mutations
+0 1 0 1
+1 9 0 9
+2 26 5 31
+3 40 14 54
+4 38 19 57
+5 22 17 39
+6 7 8 15
+All
+143.000000 / 206 = 0.694175
+Valid
+0 0
+1 143
+Invalid
+0 0
+1 63
+Total 0.161660 s
+Solver 0.169424 s
+Checked 206
+Calls 206

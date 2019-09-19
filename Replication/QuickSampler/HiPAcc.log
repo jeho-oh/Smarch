@@ -1,0 +1,33 @@
+1100000001000110000010001001000 STARTING
+unsat
+Samples 1
+Execution time 0.00455305
+Samples 2
+Execution time 0.00641678
+Samples 2
+Execution time 0.00829122
+Samples 4
+Execution time 0.0110031
+Samples 6
+Execution time 0.0127629
+Samples 10
+Execution time 0.014507
+Samples 18
+Execution time 0.0162898
+Samples 18
+Execution time 0.0178609
+Samples 36
+Execution time 0.0196739
+Samples 72
+Execution time 0.0213947
+Samples 108
+Execution time 0.023049
+Samples 175
+Execution time 0.0252531
+Samples 330
+Execution time 0.0273218
+Stopping: samples
+Samples 330
+Execution time 0.0273382
+Solver time: 0.0253648
+Epochs 0, Flips 10, Unsat 1, Calls 14
