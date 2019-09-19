@@ -1,7 +1,7 @@
 # Smarch
 Smarch is a tool to uniform sample solutions of a propositional formula, primarily developed for uniform sampling Software Product Line configurations.
 
-Smarch maintains a one-to-one correspondence betweenintegers and configurations, converting uniformly sampled integersinto uniformly sampled configurations. As Smarch only creates configurations that are used as samples, it has better scalability than other uniform sampling algorithms. Smarch can be optimized with respect to variable selection, parallelism, and caching to reduce its sampling time.
+Smarch maintains a one-to-one correspondence between integers and configurations, converting uniformly sampled integers into uniformly sampled configurations. As Smarch only creates configurations that are used as samples, it has better scalability than other uniform sampling algorithms. Smarch can be optimized with respect to variable selection, parallelism, and caching to reduce its sampling time.
 
 ## Prerequisites
 Smarch relies on following tools:
