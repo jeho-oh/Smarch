@@ -192,11 +192,15 @@ def count_cc(assigned_, vcount_, clauses_, wdir_, processes_):
     # create dimacs file regarding constraints
     gen_dimacs(vcount_, clauses_, assigned_, _dimacsfile)
 
+    if not checksat(_dimacsfile, []):
+        print("formula invalid")
+        exit(1)
+
     # execute march to get cubes
     res = getoutput(MARCH + ' ' + _dimacsfile + ' -d 5 -#')
     _out = res.split("\n")
 
-    # # print march result (debugging purpose)
+    # print march result (debugging purpose)
     if DEBUG:
         print(_out)
 
@@ -214,10 +218,12 @@ def count_cc(assigned_, vcount_, clauses_, wdir_, processes_):
 
     # double check all variables are free
     if _allfree:
-        _total = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
-        if _total != 2 ** (len(_freevar)):
+        _check = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
+        if _check != 2 ** (len(_freevar)):
             _freevar.clear()
             _allfree = False
+        else:
+            _total = _check
 
     if not _allfree:
         # with open(_cubefile) as cf:
@@ -229,62 +235,66 @@ def count_cc(assigned_, vcount_, clauses_, wdir_, processes_):
         #             _cube.remove('0')
         #
         #         _cubes.append(_cube)
-
         _freevar.clear()
 
-        # execute sharpSAT to count solutions
-        # count in parallel
-        if processes_ > 1:
-            # partition random numbers for each thread
-            chunk = math.ceil(len(_cubes) / processes_)
-            pnum = math.ceil(len(_cubes) / chunk)
-
-            clist = list()
-            for i in range(0, pnum):
-                clist.append(_cubes[i * chunk: (i + 1) * chunk])
-
-            # run sampling processes
-            _samples = list()
-            with multiprocessing.Manager() as manager:
-                q = manager.Queue()
-                plist = list()
-
-                # create processes
-                for i in range(0, len(clist)):
-                    plist.append(
-                        multiprocessing.Process(target=count_mp,
-                                                args=(q, clist[i])))
-
-                # start processes
-                for p in plist:
-                    p.start()
-
-                # wait until processes are finished
-                for p in plist:
-                    p.join()
-
-                # gather samples
-                _cubes.clear()
-                while not q.empty():
-                    pres = q.get()
-
-                    _cubes.extend(pres[0])
-                    _counts.extend(pres[1])
-
-                for c in _counts:
-                    _total += c
-
-        # cont without parallelism
+        if len(_cubes) == 0:
+            # execute sharpSAT to count solutions
+            gen_dimacs(vcount_, clauses_, assigned_, _dimacsfile)
+            _total = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
         else:
-            for _cube in _cubes:
-                gen_dimacs(vcount_, clauses_, assigned_ + _cube, _dimacsfile)
-                res = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
 
-                if DEBUG:
-                    print(res)
+            # count in parallel
+            if processes_ > 1:
+                # partition random numbers for each thread
+                chunk = math.ceil(len(_cubes) / processes_)
+                pnum = math.ceil(len(_cubes) / chunk)
 
-                _total += res
-                _counts.append(res)
+                clist = list()
+                for i in range(0, pnum):
+                    clist.append(_cubes[i * chunk: (i + 1) * chunk])
+
+                # run sampling processes
+                _samples = list()
+                with multiprocessing.Manager() as manager:
+                    q = manager.Queue()
+                    plist = list()
+
+                    # create processes
+                    for i in range(0, len(clist)):
+                        plist.append(
+                            multiprocessing.Process(target=count_mp,
+                                                    args=(q, clist[i])))
+
+                    # start processes
+                    for p in plist:
+                        p.start()
+
+                    # wait until processes are finished
+                    for p in plist:
+                        p.join()
+
+                    # gather samples
+                    _cubes.clear()
+                    while not q.empty():
+                        pres = q.get()
+
+                        _cubes.extend(pres[0])
+                        _counts.extend(pres[1])
+
+                    for c in _counts:
+                        _total += c
+
+            # cont without parallelism
+            else:
+                for _cube in _cubes:
+                    gen_dimacs(vcount_, clauses_, assigned_ + _cube, _dimacsfile)
+                    res = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
+
+                    if DEBUG:
+                        print(res)
+
+                    _total += res
+                    _counts.append(res)
 
     return _freevar, _counts, _cubes, _total, _allfree
 
@@ -393,6 +403,10 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
                 number_ -= c
             _i += 1
 
+        if _index < 0:
+            print("ERROR: No cube selected")
+            exit(1)
+
         return cubes_[_index], number_, _terminate
 
     # assign free variables without recursion
@@ -427,6 +441,7 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
         else:
             # create dimacs file regarding constraints
             gen_dimacs(vcount_, clauses_, assigned_, _dimacsfile)
+            _temp = int(getoutput(SHARPSAT + ' -q ' + _dimacsfile))
 
             # execute march to get cubes
             cube_time = time.time()
@@ -451,8 +466,8 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
 
             # double check all variables are free
             if _allfree:
-                total = int((getoutput(SHARPSAT + ' -q ' + _dimacsfile)))
-                if total != 2 ** (len(_freevar)):
+                check = int((getoutput(SHARPSAT + ' -q ' + _dimacsfile)))
+                if check != 2 ** (len(_freevar)):
                     _freevar.clear()
                     _allfree = False
 
@@ -515,6 +530,9 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
             if cube_time > 0.05:
                 cache_b[tuple(assigned_)] = (_cubes, _freevar, _allfree)
 
+        # if len(_selected) == 0 and not _allfree:
+        #     print(_temp)
+
         return _selected, r_, _freevar, _allfree, _terminate
 
     # sample for each random number
@@ -532,14 +550,17 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
         if ccres_[4]:  # all variables free, sampling done
             assigned = assigned + set_freevar(ccres_[0], int(number))
             terminate = True
+        elif ccres_[3] == 1:
+            terminate = True
         else:  # select cube to recurse
             cube, number, terminate = select_cube(ccres_[1], ccres_[2], number)
             assigned = assigned + cube
 
             if len(cube) == 0:
                 print("ERROR: cube not selected", flush=True)
-                exit()
+                exit(1)
 
+        k = 0
         # recurse
         while not terminate:
             cube, number, freevar, allfree, terminate = traverse(assigned, number)
@@ -554,7 +575,9 @@ def sample(q, vcount_, clauses_, rands_, wdir_, ccres_, quiet_=False):
 
                 if len(cube) == 0:
                     print("ERROR: cube not selected: " + str(len(freevar)), flush=True)
-                    exit()
+                    exit(1)
+
+            k += 1
 
         # verify if sample is valid and assign dead variables using pycosat
         assigned = list(map(int, assigned))
