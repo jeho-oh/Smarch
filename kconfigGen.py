@@ -134,7 +134,7 @@ if __name__ == "__main__":
     features, clauses, vcount = read_dimacs(dimacs)
     const = list()
     if constfile != '':
-        read_constraints(constfile, features)
+        const = read_constraints(constfile, features)
 
     # sample configurations
     start_time = time.time()
