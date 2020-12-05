@@ -17,7 +17,7 @@ import multiprocessing
 
 
 srcdir = os.path.dirname(os.path.abspath(__file__))
-SHARPSAT = srcdir + '/sharpSAT/Release/sharpSAT'
+SHARPSAT = srcdir + '/sharpSAT/build/Release/sharpSAT'
 MARCH = srcdir + '/CnC/march_cu/march_cu'
 
 DEBUG = False
