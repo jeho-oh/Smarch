@@ -3,13 +3,15 @@ Smarch is a tool to uniform sample solutions of a propositional formula, primari
 
 Smarch maintains a one-to-one correspondence between integers and configurations, converting uniformly sampled integers into uniformly sampled configurations. As Smarch only creates configurations that are used as samples, it has better scalability than other uniform sampling algorithms. Smarch can be optimized with respect to variable selection, parallelism, and caching to reduce its sampling time.
 
+For more descirption on how it works, please refer to: https://apps.cs.utexas.edu/apps/tech-reports/192690
+
 ## Prerequisites
 Smarch relies on following tools:
-* sharpSAT (https://sites.google.com/site/marcthurley/sharpsat): A exact model counting tool. To build, run make inside Release folder.
+* sharpSAT (https://github.com/marcthurley/sharpSAT): A exact model counting tool. To build, run make inside Release folder.
 * march_cu (https://github.com/marijnheule/CnC): Solver based on cube-and-conquer algorithm. To build, run make inside folder.
 
-Source files for both tools are included in the repository.
-You can build each tool by running make.
+Repository of both tools are included here as submodules.  
+Note that, the tools have slighlty modified output with the original version, but their functionality is the same.
 
 Smarch python script uses following additional package: pycosat
 
